@@ -12,7 +12,7 @@ layout: default
         <strong>Electrical & Electronic Engineering</strong> | Signal Processing & Machine Learning
       </h4>
       <p style="margin-top: 0; margin-bottom: 15px; color: #666;">
-        📍 University of Peradeniya | Kandy, Sri Lanka
+         University of Peradeniya | Kandy, Sri Lanka
       </p>
       <p style="font-size: 0.95em;">
         <a href="https://www.linkedin.com/in/sathasivam-durga-821908315" style="text-decoration: none;">🔗 LinkedIn</a> &nbsp; | &nbsp; 
@@ -26,8 +26,6 @@ layout: default
   </tr>
 </table>
 
-# Undergraduate Research Portfolio
-# SATHASIVAM DURGA
 
 ##  About Me
 I am a final-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.
