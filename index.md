@@ -10,7 +10,7 @@ layout: default
       <td style="border: none; padding: 0;">
         <h1 style="margin-top: 0; color: #3b82f6;">Sathasivam Durga</h1>
         <h4 style="margin-top: 10px; margin-bottom: 10px; color: #334155; font-weight: normal;">
-          <strong>Electrical & Electronic Engineering</strong> | Signal Processing & Machine Learning
+          <strong>Electrical & Electronic Engineering Undergraduate </strong> 
         </h4>
         <p style="margin-top: 0; margin-bottom: 15px; color: #64748b; font-size: 0.95em;">
           University of Peradeniya | Kandy, Sri Lanka
@@ -44,32 +44,59 @@ layout: default
 </div>
 
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> Project Overview: Preterm Birth Prediction</h2>
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">🔬 Project Overview: Preterm Birth Prediction</h2>
+
+  <div style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px 20px; border-radius: 0 8px 8px 0; margin-bottom: 35px;">
+    <h4 style="margin-top: 0; margin-bottom: 8px; color: #1d4ed8;"> The Clinical Challenge</h4>
+    <p style="margin-bottom: 0; color: #334155; line-height: 1.6;">Preterm birth remains a primary cause of neonatal mortality worldwide. Early detection of preterm labor risks is critical to providing timely clinical interventions. Traditional diagnostic methods often lack the sensitivity required to detect early uterine remodeling before active labor begins.</p>
+  </div>
+
+  <h3 style="color: #1e3a8a; margin-top: 0; margin-bottom: 15px;"> Our Approach</h3>
+  <p style="color: #334155; line-height: 1.6; margin-bottom: 20px;">This undergraduate research project focuses on developing a non-invasive, objective clinical prediction framework using advanced data analysis. By analyzing physiological parameters across multi-channel electrical recordings, the project leverages two primary modalities:</p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 40px;">
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 25px 20px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+      <div style="font-size: 2.2em; margin-bottom: 12px;"></div>
+      <h4 style="color: #2563eb; margin-top: 0; margin-bottom: 10px; font-size: 1.1em;">Uterine Electromyography (EHG)</h4>
+      <p style="color: #475569; font-size: 0.95em; margin: 0; line-height: 1.6;">Capturing the raw electrical activity of the uterine smooth muscle via abdominal electrodes.</p>
+    </div>
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 10px; padding: 25px 20px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+      <div style="font-size: 2.2em; margin-bottom: 12px;"></div>
+      <h4 style="color: #2563eb; margin-top: 0; margin-bottom: 10px; font-size: 1.1em;">Tocodynamometry (TOCO)</h4>
+      <p style="color: #475569; font-size: 0.95em; margin: 0; line-height: 1.6;">Monitoring the mechanical pressure changes associated with uterine contractions.</p>
+    </div>
+  </div>
+
+  <h3 style="color: #1e3a8a; margin-top: 0; margin-bottom: 15px;"> Methodology Pipeline</h3>
+  <p style="color: #334155; line-height: 1.6; margin-bottom: 25px;">The core of our research follows a rigorous four-stage engineering pipeline:</p>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px;">
+    <div style="border-left: 4px solid #60a5fa; background: #fff; padding: 20px 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.06); border-top: 1px solid #f1f5f9; border-right: 1px solid #f1f5f9; border-bottom: 1px solid #f1f5f9;">
+      <div style="color: #3b82f6; font-weight: 800; font-size: 0.75em; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">Stage 01</div>
+      <h4 style="margin: 0 0 10px 0; color: #1e3a8a; font-size: 1.05em;">Data Prep</h4>
+      <p style="margin: 0; color: #475569; font-size: 0.9em; line-height: 1.5;">Cleaning raw clinical datasets by removing motion artifacts and baseline wander.</p>
+    </div>
+    
+<div style="border-left: 4px solid #8b5cf6; background: #fff; padding: 20px 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.06); border-top: 1px solid #f1f5f9; border-right: 1px solid #f1f5f9; border-bottom: 1px solid #f1f5f9;">
+      <div style="color: #8b5cf6; font-weight: 800; font-size: 0.75em; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">Stage 02</div>
+      <h4 style="margin: 0 0 10px 0; color: #1e3a8a; font-size: 1.05em;">DSP Filtering</h4>
+      <p style="margin: 0; color: #475569; font-size: 0.9em; line-height: 1.5;">Applying bandpass filtering and time-frequency analysis to isolate signals.</p>
+    </div>
+    
+ <div style="border-left: 4px solid #f59e0b; background: #fff; padding: 20px 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.06); border-top: 1px solid #f1f5f9; border-right: 1px solid #f1f5f9; border-bottom: 1px solid #f1f5f9;">
+      <div style="color: #f59e0b; font-weight: 800; font-size: 0.75em; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">Stage 03</div>
+      <h4 style="margin: 0 0 10px 0; color: #1e3a8a; font-size: 1.05em;">Extraction</h4>
+      <p style="margin: 0; color: #475569; font-size: 0.9em; line-height: 1.5;">Capturing statistical, frequency, and non-linear signal characteristics.</p>
+    </div>
+    
+ <div style="border-left: 4px solid #10b981; background: #fff; padding: 20px 15px; border-radius: 0 8px 8px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.06); border-top: 1px solid #f1f5f9; border-right: 1px solid #f1f5f9; border-bottom: 1px solid #f1f5f9;">
+      <div style="color: #10b981; font-weight: 800; font-size: 0.75em; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px;">Stage 04</div>
+      <h4 style="margin: 0 0 10px 0; color: #1e3a8a; font-size: 1.05em;">ML Models</h4>
+      <p style="margin: 0; color: #475569; font-size: 0.9em; line-height: 1.5;">Training predictive algorithms to classify and benchmark Term vs Preterm.</p>
+    </div>
+  </div>
+
   
-  <div style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px 20px; border-radius: 0 8px 8px 0; margin-bottom: 20px;">
-    <h4 style="margin-top: 0; color: #1d4ed8;"> The Clinical Challenge</h4>
-    <p style="margin-bottom: 0; color: #334155; line-height: 1.5;">Preterm birth remains a primary cause of neonatal mortality worldwide. Early detection of preterm labor risks is critical to providing timely clinical interventions. Traditional diagnostic methods often lack the sensitivity required to detect early uterine remodeling before active labor begins.</p>
-  </div>
-
-  <h4 style="color: #1e3a8a;">Our Approach</h4>
-  <p style="color: #334155; line-height: 1.6;">This undergraduate research project focuses on developing a non-invasive, objective clinical prediction framework using advanced data analysis. By analyzing physiological parameters across multi-channel electrical recordings, the project leverages two primary modalities:</p>
-  <ol style="color: #334155; line-height: 1.6;">
-    <li><strong>Uterine Electromyography (EHG):</strong> Capturing the raw electrical activity of the uterine smooth muscle via abdominal electrodes.</li>
-    <li><strong>Tocodynamometry (TOCO):</strong> Monitoring the mechanical pressure changes associated with uterine contractions.</li>
-  </ol>
-
-  <h4 style="color: #1e3a8a;">Methodology Pipeline</h4>
-  <p style="color: #334155; line-height: 1.6;">The core of our research follows a rigorous four-stage engineering pipeline:</p>
-  <ul style="color: #334155; line-height: 1.6;">
-    <li><strong>Data Preparation & Preprocessing:</strong> Cleaning and structuring raw clinical datasets by removing motion artifacts, maternal heart rate interference, and baseline wander.</li>
-    <li><strong>Digital Signal Processing (DSP):</strong> Applying bandpass filtering and executing time-frequency analysis to isolate contraction-specific signal trends.</li>
-    <li><strong>Feature Extraction:</strong> Capturing essential statistical, frequency, and non-linear characteristics from the isolated signals.</li>
-    <li><strong>Machine Learning Classification:</strong> Training and evaluating predictive algorithms (e.g., scikit-learn models) to classify signals into 'Term' or 'Preterm' categories and validating performance against benchmarks.</li>
-  </ul>
-
-  <div style="margin-top: 25px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-    <p style="margin: 0; color: #475569; font-size: 0.95em;"><strong>Supervisors:</strong> Prof. Roshan Godaliyadda, Prof. Parakrama Ekanayake, Dr. Ruwan Ranaweera, and Prof. Chathura Ratnayake.</p>
-  </div>
   <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> Supervisors</h2>
   
