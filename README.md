@@ -1,4 +1,12 @@
-# SATHASIVAM DURGA
+---
+title: "Sathasivam Durga | Undergraduate Research Portfolio"
+layout: default
+---
+
+<p align="right">
+  <img src="profile.jpg" alt="Durga S. Profile Picture" width="132" height="170" style="object-fit: cover;">
+</p>
+
 
 ### Electrical & Electronic Engineering | Signal Processing & Machine Learning
 University of Peradeniya | Kandy, Sri Lanka  
@@ -38,7 +46,22 @@ I am a final-year engineering student specializing in digital signal processing 
 * **B.Sc. Engineering (Hons) in Electrical & Electronic Engineering** — University of Peradeniya (Expected Graduation: 2027)
 
 ---
+## 🔬 Project Overview: Preterm Birth Prediction
 
+### The Clinical Challenge
+Preterm birth remains a primary cause of neonatal mortality worldwide. Early detection of preterm labor risks is critical to providing timely clinical interventions. Traditional diagnostic methods often lack the sensitivity required to detect early uterine remodeling before active labor begins.
+
+### Our Approach
+[cite_start]This undergraduate research project focuses on developing a non-invasive, objective clinical prediction framework using advanced data analysis. [cite_start]By analyzing physiological parameters across multi-channel electrical recordings, the project leverages two primary modalities:
+1. [cite_start]**Uterine Electromyography (EHG):** Capturing the raw electrical activity of the uterine smooth muscle via abdominal electrodes.
+2. [cite_start]**Tocodynamometry (TOCO):** Monitoring the mechanical pressure changes associated with uterine contractions.
+
+### Methodology Pipeline
+[cite_start]The core of our research follows a rigorous four-stage engineering pipeline:
+* [cite_start]**Data Preparation & Preprocessing:** Cleaning and structuring raw clinical datasets by removing motion artifacts, maternal heart rate interference, and baseline wander.
+* [cite_start]**Digital Signal Processing (DSP):** Applying bandpass filtering and executing time-frequency analysis to isolate contraction-specific signal trends.
+* [cite_start]**Feature Extraction:** Capturing essential statistical, frequency, and non-linear characteristics from the isolated signals.
+* [cite_start]**Machine Learning Classification:** Training and evaluating predictive algorithms (e.g., scikit-learn models) to classify signals into 'Term' or 'Preterm' categories and validating performance against benchmarks.
 
 ## Project Timeline & Weekly Progress
 
