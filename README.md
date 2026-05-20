@@ -9,9 +9,8 @@ University of Peradeniya | Kandy, Sri Lanka
 ## About Me
 I am a final-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.
 <p align="center">
-  <img src="profile.jpg" alt="Durga S. Profile Picture" width="200" style="border-radius: 100%;">
+  <img src="profile.jpg" alt="Durga S. Profile Picture" width="200" height="200" style="object-fit: cover; border-radius: 50%;">
 </p>
-
 ---
 
 ## Technical Toolkit
