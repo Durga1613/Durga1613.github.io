@@ -10,7 +10,7 @@ layout: default
 # Undergraduate Research Portfolio
 
 ### Electrical & Electronic Engineering | Signal Processing & Machine Learning
-📍 University of Peradeniya | Kandy, Sri Lanka  
+University of Peradeniya | Kandy, Sri Lanka  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/sathasivam-durga-821908315) | ✉️ [e21120@eng.pdn.ac.lk](mailto:e21120@eng.pdn.ac.lk) | 📄 [Google Drive Resume](https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing)
 
 ---
@@ -20,7 +20,7 @@ I am a final-year engineering student specializing in digital signal processing 
 
 ---
 
-## 🛠️ Technical Toolkit
+## Technical Toolkit
 
 * **Programming Languages:** Python, MATLAB, C
 * **Data Science & ML:** scikit-learn, Pandas, NumPy, SciPy, Predictive Modeling
@@ -29,7 +29,7 @@ I am a final-year engineering student specializing in digital signal processing 
 
 ---
 
-## 🔬 Project Overview: Preterm Birth Prediction
+##  Project Overview: Preterm Birth Prediction
 
 ### The Clinical Challenge
 Preterm birth remains a primary cause of neonatal mortality worldwide. Early detection of preterm labor risks is critical to providing timely clinical interventions. Traditional diagnostic methods often lack the sensitivity required to detect early uterine remodeling before active labor begins.
@@ -50,7 +50,7 @@ The core of our research follows a rigorous four-stage engineering pipeline:
 
 ---
 
-## 📅 Project Timeline & Weekly Progress
+##  Project Timeline & Weekly Progress
 
 Welcome to my project documentation. This section tracks the progression of my final-year research based on our defined project milestones. Click on any week below to view detailed progress, code snippets, and research objectives.
 
