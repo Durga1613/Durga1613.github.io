@@ -9,19 +9,17 @@ University of Peradeniya | Kandy, Sri Lanka
 ## About Me
 I am a final-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.
 <p align="center">
-  <img src="profile.jpg" alt="Durga S. Profile Picture" width="200" style="border-radius: 50%;">
+  <img src="profile.jpg" alt="Durga S. Profile Picture" width="200" style="border-radius: 100%;">
 </p>
 
 ---
 
 ## Technical Toolkit
-| Category | Skills & Technologies |
-| :--- | :--- |
-| **Programming Languages** | Python, MATLAB, C |
-| **Data Science & ML** | scikit-learn, Pandas, NumPy, SciPy, Predictive Modeling |
-| **Signal Processing** | Digital Filtering, Fourier/Wavelet Transforms, Feature Extraction |
-| **Tools & Environments** | Google Colab, Git, LaTeX, Overleaf |
 
+ **Programming Languages** Python, MATLAB, C 
+**Data Science & ML**  scikit-learn, Pandas, NumPy, SciPy, Predictive Modeling 
+**Signal Processing**  Digital Filtering, Fourier/Wavelet Transforms, Feature Extraction 
+**Tools & Environments**  Google Colab, Git, LaTeX, Overleaf 
 ---
 
 ## Featured Research: Preterm Birth Detection
