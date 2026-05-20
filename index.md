@@ -44,7 +44,7 @@ layout: default
 </div>
 
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">🔬 Project Overview: Preterm Birth Prediction</h2>
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> Project Overview: Preterm Birth Prediction</h2>
   
   <div style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px 20px; border-radius: 0 8px 8px 0; margin-bottom: 20px;">
     <h4 style="margin-top: 0; color: #1d4ed8;"> The Clinical Challenge</h4>
@@ -71,7 +71,7 @@ layout: default
     <p style="margin: 0; color: #475569; font-size: 0.95em;"><strong>Supervisors:</strong> Prof. Roshan Godaliyadda, Prof. Parakrama Ekanayake, Dr. Ruwan Ranaweera, and Prof. Chathura Ratnayake.</p>
   </div>
   <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">👨‍🏫 Supervisors</h2>
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> Supervisors</h2>
   
   <div style="background: linear-gradient(to right, #eff6ff, #ffffff); border-left: 4px solid #2563eb; border-radius: 0 8px 8px 0; padding: 20px; margin-top: 15px;">
     <p style="margin-top: 0; margin-bottom: 12px; color: #334155; font-size: 1.05em;">
@@ -90,7 +90,7 @@ layout: default
 </div>
 
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> 14-Week Progress Timeline</h2>
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> **14-Week Progress Timeline**</h2>
   <p style="color: #64748b; margin-bottom: 25px;">Welcome to my project documentation. This section tracks the progression of my final-year research based on our defined project milestones. Click on any week below to view detailed progress, code snippets, and research objectives.</p>
 
   <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 15px;">Phase 1: Literature & Data Acquisition</h4>
