@@ -37,5 +37,5 @@ layout: default
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="index.md" style="display: inline-block; background: #f1f5f9; color: #334155; padding: 10px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; border: 1px solid #cbd5e1; transition: 0.2s;"> Back </a>
+  <a href="/" style="display: inline-block; background: #f1f5f9; color: #334155; padding: 10px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; border: 1px solid #cbd5e1; transition: 0.2s;"> Back </a>
 </div>
