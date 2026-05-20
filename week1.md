@@ -27,7 +27,7 @@ layout: default
 
   <h3 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 30px;"> Next Steps (Week 02)</h3>
   <ul style="color: #475569; line-height: 1.8;">
-    <li>Identify and analyze publicly available EHG datasets (e.g., PhysioNet Term-Preterm EHG Database).</li>
+    <li>Identify and analyze publicly available EHG datasets (e.g., Term-Preterm EHG Database).</li>
     <li>Document dataset constraints, channel configurations, and recording protocols.</li>
   </ul>
 
