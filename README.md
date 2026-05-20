@@ -1,17 +1,17 @@
-# Hi, I'm Durga S. 👋
+# SATHASIVAM DURGA
 
 ### Electrical & Electronic Engineering | Signal Processing & Machine Learning
-📍 University of Peradeniya | Kandy, Sri Lanka  
+University of Peradeniya | Kandy, Sri Lanka  
 🔗 [LinkedIn Profile] | ✉️ [e21120@eng.pdn.ac.lk] | 📄 [https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing]
 
 ---
 
-## 👤 About Me
+## About Me
 I am a final-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.
 
 ---
 
-## 🛠️ Technical Toolkit
+## Technical Toolkit
 | Category | Skills & Technologies |
 | :--- | :--- |
 | **Programming Languages** | Python, MATLAB, C |
@@ -21,7 +21,7 @@ I am a final-year engineering student specializing in digital signal processing 
 
 ---
 
-## 🚀 Featured Research: Preterm Birth Detection
+## Featured Research: Preterm Birth Detection
 
 [cite_start]**Project Title:** Preterm Birth Prediction Using EHG Signals with Signal Processing and Machine Learning Techniques[cite: 3].  
 [cite_start]**Supervisors:** Prof. Roshan Godaliyadda, Prof. Parakrama Ekanayake, Dr. Ruwan Ranaweera, and Prof. Chathura Ratnayake[cite: 3].
@@ -33,14 +33,14 @@ I am a final-year engineering student specializing in digital signal processing 
 
 ---
 
-## 🎓 Education
+## Education
 
 * **B.Sc. Engineering (Hons) in Electrical & Electronic Engineering** — University of Peradeniya (Expected Graduation: 2027)
 
 ---
 
 
-## 📅 Project Timeline & Weekly Progress
+## Project Timeline & Weekly Progress
 
 Welcome to my project documentation. This section tracks the progression of my final-year research based on our defined project milestones. Click on any week below to view detailed progress, code snippets, and research objectives.
 
