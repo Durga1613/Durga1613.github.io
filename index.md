@@ -19,9 +19,10 @@ layout: default
           <a href="mailto:e21120@eng.pdn.ac.lk" style="text-decoration: none; background: #e0e7ff; color: #1d4ed8; padding: 4px 10px; border-radius: 6px; font-weight: bold; margin-right: 8px;">✉️ Email </a>
           <a href="https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing" style="text-decoration: none; background: #e0e7ff; color: #1d4ed8; padding: 4px 10px; border-radius: 6px; font-weight: bold;">📄 Resume</a>
         </p>
-      </td>
-     <td width="160" align="right" valign="top" style="border: none; padding: 0;">
-        <img src="profile.jpg" alt="Sathasivam Durga Profile Picture" width="132" height="170" style="object-fit: cover; border: 3px solid #bfdbfe; border-radius: 8px; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);">
+     <td width="240" align="right" valign="top" style="border: none; padding: 0;">
+        <div style="width: 200px; height: 260px; overflow: hidden; border: 3px solid #bfdbfe; border-radius: 8px; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15); display: inline-block;">
+          <img src="profile.jpg" alt="Sathasivam Durga Profile Picture" style="width: 100%; height: 100%; object-fit: cover; transform: scale(1.3); transform-origin: center center;">
+        </div>
       </td>
     </tr>
   </table>
@@ -29,7 +30,7 @@ layout: default
 
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> About Me</h2>
-  <p style="color: #334155; line-height: 1.6;">I am a final-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.</p>
+  <p style="color: #334155; line-height: 1.6;">I am a third-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.</p>
 </div>
 
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
