@@ -1,19 +1,28 @@
 ---
-title: "Sathasivam Durga | Undergraduate Research Portfolio"
+title: " Undergraduate Research Portfolio" 
+        Sathasivam Durga
 layout: default
 ---
 
-<p align="right">
-  <img src="profile.jpg" alt="Durga S. Profile Picture" width="132" height="170" style="object-fit: cover;">
-</p>
+<table>
+  <tr>
+    <td>
+      <h1>Undergraduate Research Portfolio</h1>
+      <h3>Electrical & Electronic Engineering | Signal Processing & Machine Learning</h3>
+      <p>University of Peradeniya | Kandy, Sri Lanka</p>
+      <p>
+        🔗 <a href="https://www.linkedin.com/in/sathasivam-durga-821908315">LinkedIn Profile</a> | 
+        ✉️ <a href="mailto:e21120@eng.pdn.ac.lk">e21120@eng.pdn.ac.lk</a> | 
+        📄 <a href="https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing">Google Drive Resume</a>
+      </p>
+    </td>
+    <td width="150" align="right" valign="top">
+      <img src="profile.jpg" alt="Durga S. Profile Picture" width="132" height="170" style="object-fit: cover; border: 1px solid #ccc; padding: 4px;">
+    </td>
+  </tr>
+</table>
 
 # Undergraduate Research Portfolio
-
-### Electrical & Electronic Engineering | Signal Processing & Machine Learning
-University of Peradeniya | Kandy, Sri Lanka  
-🔗 [LinkedIn Profile](https://www.linkedin.com/in/sathasivam-durga-821908315) | ✉️ [e21120@eng.pdn.ac.lk](mailto:e21120@eng.pdn.ac.lk) | 📄 [Google Drive Resume](https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing)
-
----
 
 ## 👤 About Me
 I am a final-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.
