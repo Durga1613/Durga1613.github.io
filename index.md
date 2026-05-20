@@ -37,13 +37,13 @@ layout: default
   <ul style="color: #334155; line-height: 1.8; list-style-type: none; padding-left: 0;">
     <li><strong style="color: #2563eb;">Programming Languages:</strong> Python, MATLAB, C</li>
     <li><strong style="color: #2563eb;">Data Science & ML:</strong> scikit-learn, NumPy, SciPy, Predictive Modeling</li>
-    <li><strong style="color: #2563eb;">Signal Processing:</strong> Digital Filtering, Fourier/Wavelet Transforms, Feature Extraction</li>
+    <li><strong style="color: #2563eb;">Signal Processing:</strong> Digital Filtering, FourierTransforms, Feature Extraction</li>
     <li><strong style="color: #2563eb;">Tools & Environments:</strong> Google Colab, Git, LaTeX, Overleaf</li>
   </ul>
 </div>
 
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">🔬 Project Overview: Preterm Birth Prediction</h2>
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> Project Overview: Preterm Birth Prediction</h2>
 
   <div style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px 20px; border-radius: 0 8px 8px 0; margin-bottom: 35px;">
     <h4 style="margin-top: 0; margin-bottom: 8px; color: #1d4ed8;"> The Clinical Challenge</h4>
