@@ -20,7 +20,6 @@ layout: default
           <a href="https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing" style="text-decoration: none; background: #e0e7ff; color: #1d4ed8; padding: 4px 10px; border-radius: 6px; font-weight: bold;">📄 Resume</a>
         </p>
       </td>
-      <td width="160" align="right" valign="top" style="border: none; padding: 0;">
      <td width="160" align="right" valign="top" style="border: none; padding: 0;">
         <img src="profile.jpg" alt="Sathasivam Durga Profile Picture" width="132" height="170" style="object-fit: cover; border: 3px solid #bfdbfe; border-radius: 8px; box-shadow: 0 4px 12px rgba(37, 99, 235, 0.15);">
       </td>
