@@ -1,5 +1,6 @@
 ---
-title: "Preterm Birth Detection"
+title: "Preterm Birth Detection" 
+       "using EHG signals and ML methods"
 layout: default
 ---
 
@@ -7,8 +8,7 @@ layout: default
   <table style="width: 100%; border: none; border-collapse: collapse;">
     <tr style="border: none;">
       <td style="border: none; padding: 0;">
-        <h1 style="margin-top: 0; margin-bottom: 5px; color: #1e3a8a;">Preterm Birth Detection</h1>
-        <h2 style="margin-top: 0; color: #3b82f6;">Sathasivam Durga</h2>
+        <h1 style="margin-top: 0; color: #3b82f6;">Sathasivam Durga</h1>
         <h4 style="margin-top: 10px; margin-bottom: 10px; color: #334155; font-weight: normal;">
           <strong>Electrical & Electronic Engineering</strong> | Signal Processing & Machine Learning
         </h4>
@@ -17,7 +17,7 @@ layout: default
         </p>
         <p style="font-size: 0.95em;">
           <a href="https://www.linkedin.com/in/sathasivam-durga-821908315" style="text-decoration: none; background: #e0e7ff; color: #1d4ed8; padding: 4px 10px; border-radius: 6px; font-weight: bold; margin-right: 8px;">🔗 LinkedIn</a>
-          <a href="mailto:e21120@eng.pdn.ac.lk" style="text-decoration: none; background: #e0e7ff; color: #1d4ed8; padding: 4px 10px; border-radius: 6px; font-weight: bold; margin-right: 8px;">✉️ Email Me</a>
+          <a href="mailto:e21120@eng.pdn.ac.lk" style="text-decoration: none; background: #e0e7ff; color: #1d4ed8; padding: 4px 10px; border-radius: 6px; font-weight: bold; margin-right: 8px;">✉️ Email </a>
           <a href="https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing" style="text-decoration: none; background: #e0e7ff; color: #1d4ed8; padding: 4px 10px; border-radius: 6px; font-weight: bold;">📄 Resume</a>
         </p>
       </td>
@@ -37,7 +37,7 @@ layout: default
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">Technical Toolkit</h2>
   <ul style="color: #334155; line-height: 1.8; list-style-type: none; padding-left: 0;">
     <li><strong style="color: #2563eb;">Programming Languages:</strong> Python, MATLAB, C</li>
-    <li><strong style="color: #2563eb;">Data Science & ML:</strong> scikit-learn, Pandas, NumPy, SciPy, Predictive Modeling</li>
+    <li><strong style="color: #2563eb;">Data Science & ML:</strong> scikit-learn, NumPy, SciPy, Predictive Modeling</li>
     <li><strong style="color: #2563eb;">Signal Processing:</strong> Digital Filtering, Fourier/Wavelet Transforms, Feature Extraction</li>
     <li><strong style="color: #2563eb;">Tools & Environments:</strong> Google Colab, Git, LaTeX, Overleaf</li>
   </ul>
@@ -69,6 +69,23 @@ layout: default
 
   <div style="margin-top: 25px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
     <p style="margin: 0; color: #475569; font-size: 0.95em;"><strong>Supervisors:</strong> Prof. Roshan Godaliyadda, Prof. Parakrama Ekanayake, Dr. Ruwan Ranaweera, and Prof. Chathura Ratnayake.</p>
+  </div>
+  <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">👨‍🏫 Supervisors</h2>
+  
+  <div style="background: linear-gradient(to right, #eff6ff, #ffffff); border-left: 4px solid #2563eb; border-radius: 0 8px 8px 0; padding: 20px; margin-top: 15px;">
+    <p style="margin-top: 0; margin-bottom: 12px; color: #334155; font-size: 1.05em;">
+      <strong style="color: #1d4ed8;">Main Supervisor:</strong> Prof. Roshan Godaliyadda
+    </p>
+    <p style="margin-top: 0; margin-bottom: 8px; color: #334155;">
+      <strong style="color: #1d4ed8;">Co-Supervisors:</strong>
+    </p>
+    <ul style="color: #475569; margin-top: 0; margin-bottom: 0; line-height: 1.6;">
+      <li>Prof. Parakrama Ekanayake</li>
+      <li>Dr. Ruwan Ranaweera</li>
+      <li>Prof. Chathura Ratnayake</li>
+    </ul>
+    </div>
   </div>
 </div>
 
