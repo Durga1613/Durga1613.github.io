@@ -4,7 +4,7 @@ layout: default
 ---
 
 <div style="background: linear-gradient(135deg, #1e3a8a, #3b82f6); padding: 35px 30px; border-radius: 12px; margin-bottom: 30px; color: white; box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);">
-  <span style="background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 20px; font-size: 0.8em; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Phase 1: Literature & Data Acquisition</span>
+  <span style="background: rgba(255,255,255,0.2); padding: 4px 12px; border-radius: 20px; font-size: 0.8em; font-weight: bold; letter-spacing: 1px; text-transform: uppercase;">Phase 1: Literature & Data Acquisition </span>
   <h1 style="margin: 15px 0 5px 0; color: white; font-size: 2.5em;">Week 01 </h1>
   <p style="margin: 0; font-size: 1.1em; opacity: 0.9;"> April 27, 2026 - May 2, 2026</p>
 </div>
