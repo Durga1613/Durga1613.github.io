@@ -39,9 +39,7 @@ I am a final-year engineering student specializing in digital signal processing 
 
 ---
 
-## 📅 Project Timeline & Weekly Progress
 
-Welcome to my project documentation. This section tracks the progression of my final-year research based on our defined project milestones. Click on any phase below to view detailed weekly progress, code snippets, and research objectives.
 ## 📅 Project Timeline & Weekly Progress
 
 Welcome to my project documentation. This section tracks the progression of my final-year research based on our defined project milestones. Click on any week below to view detailed progress, code snippets, and research objectives.
