@@ -20,7 +20,7 @@ layout: default
     <li><strong style="color: #2563eb;">Literature Sourcing:</strong> Began compiling a repository of recent peer-reviewed papers focusing on EHG-based uterine contraction analysis.</li>
   </ul>
 
-  <h3 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 30px;">🚧 Challenges Faced</h3>
+  <h3 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 30px;"> Challenges Faced</h3>
   <div style="background-color: #fef2f2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 0 8px 8px 0;">
     <p style="margin: 0; color: #7f1d1d; line-height: 1.5;"><strong>Challenge:</strong> Filtering through purely clinical obstetrics papers to locate studies that focus specifically on the engineering, signal processing, and machine learning aspects of EHG data.</p>
   </div>
