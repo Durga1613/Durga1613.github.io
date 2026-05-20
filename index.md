@@ -1,30 +1,35 @@
 ---
-title: " Undergraduate Research Portfolio" 
-        Sathasivam Durga
+title: " Undergraduate Research Portfolio"
 layout: default
 ---
 
-<table>
-  <tr>
-    <td>
-      <h1>Undergraduate Research Portfolio</h1>
-      <h3>Electrical & Electronic Engineering | Signal Processing & Machine Learning</h3>
-      <p>University of Peradeniya | Kandy, Sri Lanka</p>
-      <p>
-        🔗 <a href="https://www.linkedin.com/in/sathasivam-durga-821908315">LinkedIn Profile</a> | 
-        ✉️ <a href="mailto:e21120@eng.pdn.ac.lk">e21120@eng.pdn.ac.lk</a> | 
-        📄 <a href="https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing">Google Drive Resume</a>
+<table style="width: 100%; border: none; border-collapse: collapse;">
+  <tr style="border: none;">
+    <td style="border: none; padding: 0;">
+      <h1 style="margin-top: 0; margin-bottom: 5px;">Undergraduate Research Portfolio</h1>
+      <h2 style="margin-top: 0; color: #444;">Sathasivam Durga</h2>
+      <h4 style="margin-top: 10px; margin-bottom: 5px; font-weight: normal;">
+        <strong>Electrical & Electronic Engineering</strong> | Signal Processing & Machine Learning
+      </h4>
+      <p style="margin-top: 0; margin-bottom: 15px; color: #666;">
+        📍 University of Peradeniya | Kandy, Sri Lanka
+      </p>
+      <p style="font-size: 0.95em;">
+        <a href="https://www.linkedin.com/in/sathasivam-durga-821908315" style="text-decoration: none;">🔗 LinkedIn</a> &nbsp; | &nbsp; 
+        <a href="mailto:e21120@eng.pdn.ac.lk" style="text-decoration: none;">✉️ e21120@eng.pdn.ac.lk</a> &nbsp; | &nbsp; 
+        <a href="https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing" style="text-decoration: none;">📄 Resume</a>
       </p>
     </td>
-    <td width="150" align="right" valign="top">
-      <img src="profile.jpg" alt="Durga S. Profile Picture" width="132" height="170" style="object-fit: cover; border: 1px solid #ccc; padding: 4px;">
+    <td width="160" align="right" valign="top" style="border: none; padding: 0;">
+      <img src="profile.jpg" alt="Sathasivam Durga Profile Picture" width="132" height="170" style="object-fit: cover; border: 1px solid #ddd; border-radius: 4px; padding: 4px; box-shadow: 0 4px 8px rgba(0,0,0,0.05);">
     </td>
   </tr>
 </table>
 
 # Undergraduate Research Portfolio
+# SATHASIVAM DURGA
 
-## 👤 About Me
+##  About Me
 I am a final-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.
 
 ---
