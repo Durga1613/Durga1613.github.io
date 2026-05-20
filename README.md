@@ -7,61 +7,50 @@ layout: default
   <img src="profile.jpg" alt="Durga S. Profile Picture" width="132" height="170" style="object-fit: cover;">
 </p>
 
+# Undergraduate Research Portfolio
 
 ### Electrical & Electronic Engineering | Signal Processing & Machine Learning
-University of Peradeniya | Kandy, Sri Lanka  
-🔗 https://www.linkedin.com/in/sathasivam-durga-821908315 | ✉️ [e21120@eng.pdn.ac.lk] | 📄 [https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing]
+📍 University of Peradeniya | Kandy, Sri Lanka  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/sathasivam-durga-821908315) | ✉️ [e21120@eng.pdn.ac.lk](mailto:e21120@eng.pdn.ac.lk) | 📄 [Google Drive Resume](https://docs.google.com/document/d/15Rh5QakTWT68dJ6UjYreFPV0I2_ROaJRvMWKX8m49ho/edit?usp=sharing)
 
 ---
 
-## About Me
+## 👤 About Me
 I am a final-year engineering student specializing in digital signal processing (DSP) and machine learning. My academic focus and current research revolve around biomedical engineering—specifically, analyzing complex physiological data to build robust clinical prediction models. I am passionate about extracting meaningful features from noisy, real-world data and applying advanced algorithms to solve critical healthcare challenges.
 
 ---
 
-## Technical Toolkit
+## 🛠️ Technical Toolkit
 
-**Programming Languages**: Python, MATLAB, C 
-**Data Science & ML** : scikit-learn, Pandas, NumPy, SciPy, Predictive Modeling 
-**Signal Processing** : Digital Filtering, Fourier/Wavelet Transforms, Feature Extraction 
-**Tools & Environments** : Google Colab, Git, LaTeX, Overleaf 
----
-
-## Featured Research: Preterm Birth Detection
-
-**Project Title:** Preterm Birth Prediction Using EHG Signals with Signal Processing and Machine Learning Techniques  
-**Supervisors:** Prof. Roshan Godaliyadda, Prof. Parakrama Ekanayake, Dr. Ruwan Ranaweera, and Prof. Chathura Ratnayake
-
-*An ongoing investigation into clinical prediction models using advanced electrical recording analysis.*
-**The Objective:** To develop a pipeline for predicting preterm births by analyzing EHG and TOCO signals.
-**The Approach:** Utilizing **Python** and **Google Colab** to process publicly available clinical datasets, applying advanced digital signal filtering, feature extraction, and machine learning techniques. 
-* **Tech Stack:** Python, NumPy/SciPy, Google Colab, Signal Processing, Machine Learning Classifiers.
+* **Programming Languages:** Python, MATLAB, C
+* **Data Science & ML:** scikit-learn, Pandas, NumPy, SciPy, Predictive Modeling
+* **Signal Processing:** Digital Filtering, Fourier/Wavelet Transforms, Feature Extraction
+* **Tools & Environments:** Google Colab, Git, LaTeX, Overleaf
 
 ---
 
-## Education
-
-* **B.Sc. Engineering (Hons) in Electrical & Electronic Engineering** — University of Peradeniya (Expected Graduation: 2027)
-
----
 ## 🔬 Project Overview: Preterm Birth Prediction
 
 ### The Clinical Challenge
 Preterm birth remains a primary cause of neonatal mortality worldwide. Early detection of preterm labor risks is critical to providing timely clinical interventions. Traditional diagnostic methods often lack the sensitivity required to detect early uterine remodeling before active labor begins.
 
 ### Our Approach
-This undergraduate research project focuses on developing a non-invasive, objective clinical prediction framework using advanced data analysis. [cite_start]By analyzing physiological parameters across multi-channel electrical recordings, the project leverages two primary modalities:
+This undergraduate research project focuses on developing a non-invasive, objective clinical prediction framework using advanced data analysis. By analyzing physiological parameters across multi-channel electrical recordings, the project leverages two primary modalities:
 1. **Uterine Electromyography (EHG):** Capturing the raw electrical activity of the uterine smooth muscle via abdominal electrodes.
 2. **Tocodynamometry (TOCO):** Monitoring the mechanical pressure changes associated with uterine contractions.
 
 ### Methodology Pipeline
 The core of our research follows a rigorous four-stage engineering pipeline:
-**Data Preparation & Preprocessing:** Cleaning and structuring raw clinical datasets by removing motion artifacts, maternal heart rate interference, and baseline wander.
-**Digital Signal Processing (DSP):** Applying bandpass filtering and executing time-frequency analysis to isolate contraction-specific signal trends.
-**Feature Extraction:** Capturing essential statistical, frequency, and non-linear characteristics from the isolated signals.
-**Machine Learning Classification:** Training and evaluating predictive algorithms (e.g., scikit-learn models) to classify signals into 'Term' or 'Preterm' categories and validating performance against benchmarks.
+* **Data Preparation & Preprocessing:** Cleaning and structuring raw clinical datasets by removing motion artifacts, maternal heart rate interference, and baseline wander.
+* **Digital Signal Processing (DSP):** Applying bandpass filtering and executing time-frequency analysis to isolate contraction-specific signal trends.
+* **Feature Extraction:** Capturing essential statistical, frequency, and non-linear characteristics from the isolated signals.
+* **Machine Learning Classification:** Training and evaluating predictive algorithms (e.g., scikit-learn models) to classify signals into 'Term' or 'Preterm' categories and validating performance against benchmarks.
 
-## Project Timeline & Weekly Progress
+**Supervisors:** Prof. Roshan Godaliyadda, Prof. Parakrama Ekanayake, Dr. Ruwan Ranaweera, and Prof. Chathura Ratnayake.
+
+---
+
+## 📅 Project Timeline & Weekly Progress
 
 Welcome to my project documentation. This section tracks the progression of my final-year research based on our defined project milestones. Click on any week below to view detailed progress, code snippets, and research objectives.
 
