@@ -155,12 +155,12 @@ layout: default
         <a href="https://youtu.be/xM20pkEDhhA?si=GHGujoFyBNxBM3M" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
           <span style="font-size: 1.5em;"></span>
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Infant Brain Dev</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Brigham Hospital</p></div>
-          <div style="text-align: center; margin: 30px 0; background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0;">
+        </a>
+      </div>
+       <div style="text-align: center; margin: 30px 0; background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0;">
   <img src="mindmap.png" alt="Preterm Birth Concepts Mindmap" style="max-width: 100%; height: auto; border-radius: 6px;">
   <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Visual map of preterm birth risk factors and clinical concepts.</em></p>
 </div>
-        </a>
-      </div>
     </div>
   </details>
 
