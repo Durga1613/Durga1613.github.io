@@ -211,7 +211,7 @@ layout: default
    </div>
   </div>
   </details>
-  </details>
+  
 
   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
