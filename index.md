@@ -135,7 +135,7 @@ layout: default
       <ul style="color: #475569; line-height: 1.7;">
         <li><strong>Biological Background:</strong> Defined the physiological differences between term and preterm birth, specifically mapping out the significant factors and clinical risk indicators that contribute to early uterine contractions during gestation.</li>
         <li><strong>Clinical Impact Analysis:</strong> Investigated the severe neonatal effects of unpredicted preterm birth, particularly focusing on neurological vulnerabilities, brain development disruption, and long-term learning difficulties.</li>
-        <li><strong>Importance of Early Detection:</strong>传 Established the medical necessity of our predictive engineering models. Early detection provides a critical time window for clinicians to administer preventative medications (such as corticosteroids for fetal lung development) which dramatically improve infant survival rates.</li>
+        <li><strong>Importance of Early Detection:</strong> Established the medical necessity of our predictive engineering models. Early detection provides a critical time window for clinicians to administer preventative medications (such as corticosteroids for fetal lung development) which dramatically improve infant survival rates.</li>
       </ul>
 
    <h4 style="color: #1d4ed8; margin-top: 25px;"> Papers & Referenced Resources</h4>
@@ -149,7 +149,7 @@ layout: default
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Epidemiology & Causes</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Wiley Library</p></div>
         </a>
         <a href="https://www.osmosis.org/learn/Preterm_labor:_Clinical_sciences" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
-          <span style="font-size: 1.5em;">🩺</span>
+          <span style="font-size: 1.5em;"></span>
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Clinical Sciences</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Osmosis Learning</p></div>
         </a>
         <a href="https://youtu.be/xM20pkEDhhA?si=GHGujoFyBNxBM3M" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
@@ -166,7 +166,7 @@ layout: default
       <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">🗓️ May 3, 2026 - May 10, 2026</p>
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 3, 2026 - May 10, 2026</p>
       <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week focused on evaluating current state-of-the-art engineering approaches to preterm birth prediction to find out which algorithms yield optimal clinical performance:</p>
       <ul style="color: #475569; line-height: 1.7;">
@@ -206,5 +206,4 @@ layout: default
       </ul>
     </div>
   </details>
-
 </div>
