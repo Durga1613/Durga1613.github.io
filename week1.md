@@ -25,7 +25,7 @@ layout: default
     <p style="margin: 0; color: #7f1d1d; line-height: 1.5;"><strong>Challenge:</strong> Filtering through purely clinical obstetrics papers to locate studies that focus specifically on the engineering, signal processing, and machine learning aspects of EHG data.</p>
   </div>
 
-  <h3 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 30px;">⏭️ Next Steps (Week 02)</h3>
+  <h3 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 30px;"> Next  (Week 02)</h3>
   <ul style="color: #475569; line-height: 1.8;">
     <li>Identify and analyze publicly available EHG datasets (e.g., PhysioNet Term-Preterm EHG Database).</li>
     <li>Document dataset constraints, channel configurations, and recording protocols.</li>
@@ -34,5 +34,5 @@ layout: default
 </div>
 
 <div style="text-align: center; margin-top: 20px;">
-  <a href="index.md" style="display: inline-block; background: #f1f5f9; color: #334155; padding: 10px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; border: 1px solid #cbd5e1; transition: 0.2s;">⬅️ Back to Main Portfolio</a>
+  <a href="index.md" style="display: inline-block; background: #f1f5f9; color: #334155; padding: 10px 25px; border-radius: 8px; text-decoration: none; font-weight: bold; border: 1px solid #cbd5e1; transition: 0.2s;"> Back </a>
 </div>
