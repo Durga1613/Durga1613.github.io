@@ -214,20 +214,50 @@ layout: default
   </div>
   </details>
   
-
   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 03: Exploring Publicly Available Datasets</span>
       <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
     </summary>
-    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 11, 2026 - May 17, 2026</p>
-      <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
-      <p style="color: #334155; line-height: 1.6;">This week transitioned from theoretical background to sourcing actual data matrices:</p>
+  
+   <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 11, 2026 - May17, 2026</p>
+      
+  <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week transitioned into data acquisition, evaluating the worldwide datasets available for tocogram (TOCO) and Electrohysterogram (EHG) signals. These signals observe uterine electrical activity and require precise processing for subsequent Machine Learning classification.</p>
+      
+<h5 style="color: #1e3a8a; margin-bottom: 8px; font-size: 1em;">The 3 Major Open EHG Datasets:</h5>
       <ul style="color: #475569; line-height: 1.7;">
-        <li><strong>Dataset Acquisition:</strong> Located and requested access to the Term-Preterm EHG Database (TPEHG) via PhysioNet.</li>
-        <li><strong>Structure Analysis:</strong> Analyzed the directory structure separating signal records (<code>.dat</code>) from clinical header files (<code>.hea</code>).</li>
+        <li><strong style="color: #2563eb;">TPEHG DB:</strong> ~300 recordings. Consists of 19 premature and 143 term records recorded at the 23rd week of gestation, plus 19 premature and 119 term records recorded at the 31st week.</li>
+        <li><strong style="color: #2563eb;">TPEHGT DS:</strong> 26 recordings (13 term + 13 preterm). This critical dataset includes simultaneous TOCO signals and expertly annotated uterine contractions.</li>
+        <li><strong style="color: #2563eb;">ICEHG DS:</strong> ~126 recordings.</li>
       </ul>
+
+  <h5 style="color: #1e3a8a; margin-top: 20px; margin-bottom: 8px; font-size: 1em;">Secondary & Proprietary Datasets:</h5>
+      <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Icelandic EHG Database (iEHG):</strong> 122 recordings.</li>
+        <li><strong>UMC Ljubljana Clinical EHG/TOCO:</strong> ~1200+ recordings (the foundational source dataset for many of the PhysioNet sets).</li>
+        <li><strong>Danish/Aalborg University EHG:</strong> Research datasets with restricted, non-public access.</li>
+        <li><strong>Synthetic/Augmented EHG Datasets:</strong> Simulated uterine activity data generated computationally using GAN and SMOTE techniques for data balancing.</li>
+      </ul>
+
+  <div style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
+        <h5 style="margin: 0 0 8px 0; color: #1e3a8a; font-size: 1.05em;"> Reality of the Field</h5>
+        <p style="margin: 0; color: #334155; line-height: 1.5;">Despite the volume of research on this topic, there are only <strong>3 major open EHG datasets worldwide</strong> (TPEHG DB, TPEHGT DS, and ICEHG DS). Everything else used in modern research is either derived subsets of these databases, restricted hospital proprietary data, or computationally simulated augmentation datasets.</p>
+      </div>
+
+  <h4 style="color: #1d4ed8; margin-top: 25px;"> Dataset Documentation & Resources</h4>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
+        
+<a href="https://drive.google.com/file/d/1JzFJQ0KJPwJu3q5MqL4TlgkIVMbw--ls/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <span style="font-size: 1.5em;"></span>
+          <div>
+            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Primary EHG Datasets Guide</h5>
+            <p style="margin:0; font-size:0.75em; color:#64748b;">View PDF on Google Drive</p>
+          </div>
+        </a>
+
+  </div>
     </div>
   </details>
 
