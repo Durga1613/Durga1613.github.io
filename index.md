@@ -261,18 +261,28 @@ layout: default
     </div>
   </details>
 
-  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
+ <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
-      <span>Week 04: Identifying Dataset Constraints & Limitations</span>
+      <span>Week 04: Addressing Data Imbalance & Evaluation Strategies</span>
       <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May18, 2026 - May 24, 2026</p>
-      <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
-      <p style="color: #334155; line-height: 1.6;">Performed a detailed audit of the TPEHG database parameters:</p>
-      <ul style="color: #475569; line-height: 1.7;">
-        <li><strong>Data Imbalance:</strong> Documented a notable skew toward 'Term' data logs, identifying the immediate need for data augmentation or balancing strategies in our upcoming ML phase.</li>
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 18, 2026 - May 24, 2026</p>
+      
+ <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week concluded Phase 1 by analyzing a critical bottleneck in EHG-based preterm birth prediction: the severe class imbalance between Term and Preterm records, and how improperly handling it biases machine learning models.</p>
+      
+ <ul style="color: #475569; line-height: 1.7;">
+<li><strong style="color: #2563eb;">The Imbalance Problem:</strong> Analyzed how datasets heavily skewed toward term birth records cause classifiers to bias toward predicting the majority class, resulting in misleadingly high overall accuracy but poor clinical utility.</li>
+        <li><strong style="color: #2563eb;">Partition-Synthesis Approach:</strong> Established the correct protocol for synthetic data generation (SMOTE/ADASYN). Datasets must be split into training and testing sets <em>first</em>, with oversampling applied <em>only</em> to the training set to prevent test data contamination.</li>
+        <li><strong style="color: #2563eb;">Algorithmic Mitigation:</strong> Researched alternative solutions such as weighted loss functions in deep learning, which heavily penalize the misclassification of preterm cases without the need to generate potentially unrealistic synthetic EHG variations.</li>
+        <li><strong style="color: #2563eb;">Robust Evaluation:</strong> Documented the necessity of using Stratified Cross-Validation to maintain consistent Preterm/Term ratios across all folds, ensuring evaluation stability.</li>
       </ul>
-    </div>
+
+<div style="background-color: #fef2f2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
+  <h5 style="margin: 0 0 8px 0; color: #7f1d1d; font-size: 1.05em;"> Methodological Pitfall: Data Leakage</h5>
+  <p style="margin: 0; color: #7f1d1d; line-height: 1.5;">Earlier studies in this field frequently applied oversampling techniques (like SMOTE) to the entire dataset <strong>before</strong> splitting it into training and testing sets. This causes severe data leakage, resulting in overly optimistic accuracy and AUC scores that will fail in real-world clinical applications.</p>
+      </div>
+
+  </div>
   </details>
-</div>
