@@ -155,6 +155,10 @@ layout: default
         <a href="https://youtu.be/xM20pkEDhhA?si=GHGujoFyBNxBM3M" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
           <span style="font-size: 1.5em;"></span>
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Infant Brain Dev</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Brigham Hospital</p></div>
+          <div style="text-align: center; margin: 30px 0; background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0;">
+  <img src="mindmap.png" alt="Preterm Birth Concepts Mindmap" style="max-width: 100%; height: auto; border-radius: 6px;">
+  <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Visual map of preterm birth risk factors and clinical concepts.</em></p>
+</div>
         </a>
       </div>
     </div>
@@ -165,15 +169,48 @@ layout: default
       <span>Week 02: Analyzing Existing Prediction Methods</span>
       <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
     </summary>
-    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+
+  <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
       <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 3, 2026 - May 10, 2026</p>
       <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
-      <p style="color: #334155; line-height: 1.6;">This week focused on evaluating current state-of-the-art engineering approaches to preterm birth prediction to find out which algorithms yield optimal clinical performance:</p>
-      <ul style="color: #475569; line-height: 1.7;">
-        <li><strong>Machine Learning Evaluation:</strong> Reviewed existing literature comparing traditional classifiers (Support Vector Machines, Random Forests) versus deep learning methods.</li>
-        <li><strong>Feature Extraction Review:</strong> Documented features used in recent papers, specifically noting the effectiveness of non-linear measures like Sample Entropy.</li>
+      <p style="color: #334155; line-height: 1.6;">This week focused on evaluating current practical and experimental approaches to preterm birth prediction and prevention in modern obstetrics:</p>
+      
+  <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Clinical Risk Assessment:</strong> Evaluated standard diagnostic tools including the Bishop Score (assessing cervical dilation, effacement, consistency, position, and fetal station), transvaginal cervical length ultrasound, and fetal fibronectin (fFN) testing for early detection.</li>
+        <li><strong>Emerging Therapeutics & Devices:</strong> Investigated the physiological role of melatonin in stimulating nighttime uterine contractions. Reviewed the novel development of a blue LED light-emitting eye mask designed to suppress maternal melatonin production non-invasively to delay premature labor.</li>
+        <li><strong>Technological Interventions:</strong> Mapped the broader landscape of modern preventative methods, including biomarker-based tests, AI-assisted prediction models, progesterone therapy, and cervical cerclage.</li>
       </ul>
-    </div>
+
+   <h4 style="color: #1d4ed8; margin-top: 25px;"> Papers & Referenced Resources</h4>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
+        
+ <a href="https://journals.sagepub.com/doi/10.2217/whe.15.74" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <span style="font-size: 1.5em;"></span>
+          <div>
+            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Preterm Labor & Melatonin</h5>
+            <p style="margin:0; font-size:0.75em; color:#64748b;">SagePub Journal</p>
+          </div>
+        </a>
+
+ <a href="https://arxiv.org/pdf/2602.24139" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <span style="font-size: 1.5em;"></span>
+          <div>
+            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">AI-Assisted Prediction Models</h5>
+            <p style="margin:0; font-size:0.75em; color:#64748b;">ArXiv Research Repository</p>
+          </div>
+        </a>
+
+   <a href="https://www.youtube.com/watch?v=1_mqL6qpdVg" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <span style="font-size: 1.5em;"></span>
+          <div>
+            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Targeting Preterm Labor</h5>
+            <p style="margin:0; font-size:0.75em; color:#64748b;">FSU Device Prototype</p>
+          </div>
+        </a>
+
+   </div>
+  </div>
+  </details>
   </details>
 
   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
