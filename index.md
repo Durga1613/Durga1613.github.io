@@ -123,14 +123,15 @@ layout: default
 
   <h3 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 15px; border-left: 4px solid #3b82f6; padding-left: 10px;">Phase 1: Literature & Data Acquisition</h3>
   
-  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+ <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 01: Clinical Background & Foundations</span>
       <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
       <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> April 27, 2026 - May 2, 2026</p>
-      <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      
+  <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week focused on establishing the foundational biological and clinical knowledge required for preterm birth prediction, ensuring our engineering models are grounded in real medical realities:</p>
       <ul style="color: #475569; line-height: 1.7;">
         <li><strong>Biological Background:</strong> Defined the physiological differences between term and preterm birth, specifically mapping out the significant factors and clinical risk indicators that contribute to early uterine contractions during gestation.</li>
@@ -138,7 +139,12 @@ layout: default
         <li><strong>Importance of Early Detection:</strong> Established the medical necessity of our predictive engineering models. Early detection provides a critical time window for clinicians to administer preventative medications (such as corticosteroids for fetal lung development) which dramatically improve infant survival rates.</li>
       </ul>
 
-   <h4 style="color: #1d4ed8; margin-top: 25px;"> Papers & Referenced Resources</h4>
+   <div style="text-align: center; margin: 30px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+        <img src="mindmap.png" alt="Preterm Birth Concepts Mindmap" style="max-width: 100%; height: auto; border-radius: 6px;">
+        <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Visual map of preterm birth risk factors and clinical concepts.</em></p>
+      </div>
+
+  <h4 style="color: #1d4ed8; margin-top: 25px;"> Papers & Referenced Resources</h4>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
         <a href="https://www.who.int/news-room/fact-sheets/detail/preterm-birth?utm_" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
           <span style="font-size: 1.5em;"></span>
@@ -157,10 +163,6 @@ layout: default
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Infant Brain Dev</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Brigham Hospital</p></div>
         </a>
       </div>
-       <div style="text-align: center; margin: 30px 0; background: white; padding: 10px; border-radius: 10px; border: 1px solid #e2e8f0;">
-  <img src="mindmap.png" alt="Preterm Birth Concepts Mindmap" style="max-width: 100%; height: auto; border-radius: 6px;">
-  <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Visual map of preterm birth risk factors and clinical concepts.</em></p>
-</div>
     </div>
   </details>
 
