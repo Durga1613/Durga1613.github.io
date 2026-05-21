@@ -118,93 +118,93 @@ layout: default
 </div>
 
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> 14-Week Progress Timeline </h2>
-  <p style="color: #64748b; margin-bottom: 25px;">Welcome to my project documentation. This section tracks the progression of my third-year research based on our defined project milestones. Click on any week below to view detailed progress, code snippets, and research objectives.</p>
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> 14-Week Progress Timeline</h2>
+  <p style="color: #64748b; margin-bottom: 25px;">Welcome to my project documentation. Click on any week below to expand and view detailed progress logs, research notes, and references directly on this page.</p>
 
-  <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 15px;">Phase 1: Literature & Data Acquisition</h4>
-  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;">
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #3b82f6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 01</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Initial Literature Review on EHG/TOCO Signals</p>
-      <a href="week1.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #3b82f6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 02</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Analyzing Existing Preterm Birth Prediction Methods</p>
-      <a href="week2.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #3b82f6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 03</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Exploring Publicly Available Datasets</p>
-      <a href="week3.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #3b82f6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 04</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Identifying Dataset Constraints & Limitations</p>
-      <a href="week4.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-  </div>
+  <h3 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 15px; border-left: 4px solid #3b82f6; padding-left: 10px;">Phase 1: Literature & Data Acquisition</h3>
+  
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 01: Clinical Background & Foundations</span>
+      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> April 27, 2026 - May 2, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week focused on establishing the foundational biological and clinical knowledge required for preterm birth prediction, ensuring our engineering models are grounded in real medical realities:</p>
+      <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Biological Background:</strong> Defined the physiological differences between term and preterm birth, specifically mapping out the significant factors and clinical risk indicators that contribute to early uterine contractions during gestation.</li>
+        <li><strong>Clinical Impact Analysis:</strong> Investigated the severe neonatal effects of unpredicted preterm birth, particularly focusing on neurological vulnerabilities, brain development disruption, and long-term learning difficulties.</li>
+        <li><strong>Importance of Early Detection:</strong>传 Established the medical necessity of our predictive engineering models. Early detection provides a critical time window for clinicians to administer preventative medications (such as corticosteroids for fetal lung development) which dramatically improve infant survival rates.</li>
+      </ul>
 
-  <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 15px;">Phase 2: Preprocessing & Analysis</h4>
-  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;">
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #6366f1; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 05</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Structuring the Data Preparation Pipeline</p>
-      <a href="week5.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
+   <h4 style="color: #1d4ed8; margin-top: 25px;"> Papers & Referenced Resources</h4>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
+        <a href="https://www.who.int/news-room/fact-sheets/detail/preterm-birth?utm_" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 1.5em;"></span>
+          <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">WHO Fact Sheet</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Global Data</p></div>
+        </a>
+        <a href="https://obgyn.onlinelibrary.wiley.com/doi/epdf/10.1046/j.1471-0528.2003.00012.x" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 1.5em;"></span>
+          <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Epidemiology & Causes</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Wiley Library</p></div>
+        </a>
+        <a href="https://www.osmosis.org/learn/Preterm_labor:_Clinical_sciences" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 1.5em;">🩺</span>
+          <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Clinical Sciences</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Osmosis Learning</p></div>
+        </a>
+        <a href="https://youtu.be/xM20pkEDhhA?si=GHGujoFyBNxBM3M" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
+          <span style="font-size: 1.5em;"></span>
+          <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Infant Brain Dev</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Brigham Hospital</p></div>
+        </a>
+      </div>
     </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #6366f1; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 06</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Developing Preprocessing Algorithms</p>
-      <a href="week6.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #6366f1; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 07</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Implementing Signal Filtering Techniques</p>
-      <a href="week7.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #6366f1; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 08</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Feature Extraction from EHG Signals</p>
-      <a href="week8.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-  </div>
+  </details>
 
-  <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 15px;">Phase 3: Machine Learning & Modeling</h4>
-  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;">
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #8b5cf6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 09</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Training Initial Machine Learning Models</p>
-      <a href="week9.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 02: Analyzing Existing Prediction Methods</span>
+      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">🗓️ May 3, 2026 - May 10, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week focused on evaluating current state-of-the-art engineering approaches to preterm birth prediction to find out which algorithms yield optimal clinical performance:</p>
+      <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Machine Learning Evaluation:</strong> Reviewed existing literature comparing traditional classifiers (Support Vector Machines, Random Forests) versus deep learning methods.</li>
+        <li><strong>Feature Extraction Review:</strong> Documented features used in recent papers, specifically noting the effectiveness of non-linear measures like Sample Entropy.</li>
+      </ul>
     </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #8b5cf6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 10</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Evaluating Model Performance</p>
-      <a href="week10.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #8b5cf6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 11</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Pipeline Optimization & Hyperparameter Tuning</p>
-      <a href="week11.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #8b5cf6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 12</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Advanced Validation & Testing</p>
-      <a href="week12.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
-    </div>
-  </div>
+  </details>
 
-  <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 15px;">Phase 4: Finalization</h4>
-  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px;">
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #14b8a6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 13</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Experimental Comparisons with Existing Studies</p>
-      <a href="week13.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 03: Exploring Publicly Available Datasets</span>
+      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 11, 2026 - May 17, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week transitioned from theoretical background to sourcing actual data matrices:</p>
+      <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Dataset Acquisition:</strong> Located and requested access to the Term-Preterm EHG Database (TPEHG) via PhysioNet.</li>
+        <li><strong>Structure Analysis:</strong> Analyzed the directory structure separating signal records (<code>.dat</code>) from clinical header files (<code>.hea</code>).</li>
+      </ul>
     </div>
-    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #14b8a6; border-radius: 8px; padding: 15px;">
-      <h4 style="margin: 0 0 10px 0; color: #1e3a8a;">Week 14</h4>
-      <p style="font-size: 0.85em; color: #64748b; margin-bottom: 15px;">Final Report Compilation & Future Improvements</p>
-      <a href="week14.md" style="font-size: 0.85em; color: #2563eb; font-weight: bold; text-decoration: none;">View Details →</a>
+  </details>
+
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 04: Identifying Dataset Constraints & Limitations</span>
+      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May18, 2026 - May 24, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">Performed a detailed audit of the TPEHG database parameters:</p>
+      <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Data Imbalance:</strong> Documented a notable skew toward 'Term' data logs, identifying the immediate need for data augmentation or balancing strategies in our upcoming ML phase.</li>
+      </ul>
     </div>
-  </div>
+  </details>
 
 </div>
