@@ -303,6 +303,7 @@ layout: default
         <li><strong style="color: #2563eb;">Signal Disambiguation:</strong> Differentiated EHG from ECG (cardiac), EOG (ocular), and EEG (cerebral). Clarified that while EEG measures brain wave activity (neural pacing), EMG and EHG measure actual contractile muscle forces (myometrial activity).</li>
         <li><strong style="color: #2563eb;">Maternal Artifacts:</strong> Investigated how maternal ECG (heartbeat) and respiration naturally interfere with the low-frequency EHG signals, confirming the necessity of precise signal filtering.</li>
       </ul>
+      
 
   <h5 style="color: #1e3a8a; margin-top: 20px; margin-bottom: 8px; font-size: 1em;">2. Literature & Algorithmic Critique</h5>
       <ul style="color: #475569; line-height: 1.7;">
@@ -310,11 +311,21 @@ layout: default
         <li><strong style="color: #2563eb;">Identifying Research Flaws:</strong> Audited key literature to document common mistakes, such as applying synthetic data generation (SMOTE) before dataset partitioning (causing data leakage) and failing to address the severe constraints and imbalances of standard datasets (like TPEHG).</li>
         <li><strong style="color: #2563eb;">Modern Corrections:</strong> Analyzed how state-of-the-art papers have corrected these early mistakes using stratified cross-validation and weighted loss functions.</li>
       </ul>
+       <a href="https://drive.google.com/file/d/1t3RKYueqmvzKgnZ56iZWlKnihGQGLKph/view?usp=drive_link" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+      <span style="font-size: 2.2em;"></span>
+      <div>
+        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Summary of EHG Basics & Fundamentals</h4>
+        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View PDF on Google Drive</p>
+      </div>
+    </a>
+  </div>
+</div>
 
  <div style="text-align: center; margin: 30px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
         <img src="research image.png" alt="Medical Terminology and Signal Visualization" style="max-width: 100%; height: auto; border-radius: 6px;">
         <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Visualization of EHG mechanics, medical terminology, and signal generation.</em></p>
       </div>
+      
 
  <h4 style="color: #1d4ed8; margin-top: 25px;"> Compiled Research & Resources</h4>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
@@ -325,13 +336,7 @@ layout: default
   
   <div style="display: flex; flex-direction: column; gap: 15px;">
     
-  <a href="https://drive.google.com/file/d/1t3RKYueqmvzKgnZ56iZWlKnihGQGLKph/view?usp=drive_link" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-      <span style="font-size: 2.2em;"></span>
-      <div>
-        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">EHG Basics & Fundamentals</h4>
-        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View PDF on Google Drive</p>
-      </div>
-    </a>
+ 
 
   <a href="https://drive.google.com/file/d/1xJkNG6TNzZzHifhExdRuAi6ES_DsuhQV/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
       <span style="font-size: 2.2em;"></span>
@@ -348,12 +353,10 @@ layout: default
         <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
       </div>
     </a>
-
-  </div>
-</div>
+    
 
   </div>
    </div>
   </details>
   </div>
-  </details>
+
