@@ -319,36 +319,38 @@ layout: default
  <h4 style="color: #1d4ed8; margin-top: 25px;"> Compiled Research & Resources</h4>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
         
-<a href="https://drive.google.com/file/d/1t3RKYueqmvzKgnZ56iZWlKnihGQGLKph/view?usp=drive_link" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-  <span style="font-size: 1.5em;"></span>
-  <div>
-    <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">EHG Basics & Fundamentals</h5>
-    <p style="margin:0; font-size:0.75em; color:#64748b;">View PDF on Google Drive</p>
-  </div>
-</a>
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> Key Research Literature</h2>
-  <p style="color: #64748b; margin-bottom: 25px;">The methodologies and signal processing pipelines implemented in this project are heavily informed by the following foundational research papers.</p>
+  <p style="color: #64748b; margin-bottom: 25px;">The methodologies and signal processing pipelines implemented in this project are heavily informed by the following foundational research papers and fundamental studies.</p>
   
-  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px;">
-  
-<a href="https://drive.google.com/file/d/1xJkNG6TNzZzHifhExdRuAi6ES_DsuhQV/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+  <div style="display: flex; flex-direction: column; gap: 15px;">
+    
+  <a href="https://drive.google.com/file/d/1t3RKYueqmvzKgnZ56iZWlKnihGQGLKph/view?usp=drive_link" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
       <span style="font-size: 2.2em;"></span>
       <div>
-        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em;">Peak amplitude of the normalized power
-spectrum of the electromyogram of the uterus in the low frequency band is an effective predictor of premature birth</h4>
-        <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.85em;">View full text </p>
+        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">EHG Basics & Fundamentals</h4>
+        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View PDF on Google Drive</p>
       </div>
     </a>
 
-   <a href="https://drive.google.com/file/d/1KrseYCDdW0P1AxW_Tjt4fvyIu-m-bxFL/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+  <a href="https://drive.google.com/file/d/1xJkNG6TNzZzHifhExdRuAi6ES_DsuhQV/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
       <span style="font-size: 2.2em;"></span>
       <div>
-        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em;">Characterization and automatic classification of preterm andtermuterine records</h4>
-        <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
+        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Peak amplitude of the normalized power spectrum of the electromyogram of the uterus in the low frequency band is an effective predictor of premature birth</h4>
+        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
       </div>
     </a>
 
+  <a href="https://drive.google.com/file/d/1KrseYCDdW0P1AxW_Tjt4fvyIu-m-bxFL/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+      <span style="font-size: 2.2em;"></span>
+      <div>
+        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Characterization and automatic classification of preterm and term uterine records</h4>
+        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
+      </div>
+    </a>
+
+  </div>
+</div>
 
   </div>
    </div>
