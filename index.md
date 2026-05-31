@@ -283,6 +283,49 @@ layout: default
   <h5 style="margin: 0 0 8px 0; color: #7f1d1d; font-size: 1.05em;"> Methodological Pitfall: Data Leakage</h5>
   <p style="margin: 0; color: #7f1d1d; line-height: 1.5;">Earlier studies in this field frequently applied oversampling techniques (like SMOTE) to the entire dataset <strong>before</strong> splitting it into training and testing sets. This causes severe data leakage, resulting in overly optimistic accuracy and AUC scores that will fail in real-world clinical applications.</p>
       </div>
+<details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 05: Electrophysiological Mechanics & Literature Critique</span>
+      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 25, 2026 - May 31, 2026</p>
+      
+  <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week bridged the gap between raw biological signals and algorithmic history, diving deep into how EHG mechanically differs from other bodily signals and conducting a critical audit of past research papers.</p>
+      
+ <h5 style="color: #1e3a8a; margin-bottom: 8px; font-size: 1em;">1. Electrophysiological Fundamentals</h5>
+      <ul style="color: #475569; line-height: 1.7;">
+        <li><strong style="color: #2563eb;">EHG vs. EMG Core Mechanics:</strong> Established that an Electrohysterogram (EHG) is essentially a highly specialized form of Electromyogram (EMG). While standard EMG measures voluntary, striated skeletal muscles, EHG measures the involuntary, smooth muscle of the uterus. Mapped the mechanical differences in action potential propagation between these two muscle types.</li>
+        <li><strong style="color: #2563eb;">Signal Disambiguation:</strong> Differentiated EHG from ECG (cardiac), EOG (ocular), and EEG (cerebral). Clarified that while EEG measures brain wave activity (neural pacing), EMG and EHG measure actual contractile muscle forces (myometrial activity).</li>
+        <li><strong style="color: #2563eb;">Maternal Artifacts:</strong> Investigated how maternal ECG (heartbeat) and respiration naturally interfere with the low-frequency EHG signals, confirming the necessity of precise signal filtering.</li>
+      </ul>
 
+  <h5 style="color: #1e3a8a; margin-top: 20px; margin-bottom: 8px; font-size: 1em;">2. Literature & Algorithmic Critique</h5>
+      <ul style="color: #475569; line-height: 1.7;">
+        <li><strong style="color: #2563eb;">Evolution of Algorithms:</strong> Tracked the historical shift in preterm prediction studies—moving from early linear statistical models to complex deep learning and non-linear feature extraction approaches as processing power increased.</li>
+        <li><strong style="color: #2563eb;">Identifying Research Flaws:</strong> Audited key literature to document common mistakes, such as applying synthetic data generation (SMOTE) before dataset partitioning (causing data leakage) and failing to address the severe constraints and imbalances of standard datasets (like TPEHG).</li>
+        <li><strong style="color: #2563eb;">Modern Corrections:</strong> Analyzed how state-of-the-art papers have corrected these early mistakes using stratified cross-validation and weighted loss functions.</li>
+      </ul>
+
+ <div style="text-align: center; margin: 30px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+        <img src="research image.png" alt="Medical Terminology and Signal Visualization" style="max-width: 100%; height: auto; border-radius: 6px;">
+        <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Visualization of EHG mechanics, medical terminology, and signal generation.</em></p>
+      </div>
+
+ <h4 style="color: #1d4ed8; margin-top: 25px;"> Compiled Research & Resources</h4>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
+        
+<a href="EHG basics(1).pdf" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <span style="font-size: 1.5em;"></span>
+          <div>
+            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">EHG Basics & Fundamentals</h5>
+            <p style="margin:0; font-size:0.75em; color:#64748b;">View Research Notes PDF</p>
+          </div>
+        </a>
+
+  </div>
+   </div>
+  </details>
   </div>
   </details>
