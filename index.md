@@ -319,7 +319,7 @@ layout: default
       </div>
     </a>
   </div>
-</div>
+
 
  <div style="text-align: center; margin: 30px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
         <img src="research image.png" alt="Medical Terminology and Signal Visualization" style="max-width: 100%; height: auto; border-radius: 6px;">
@@ -357,6 +357,6 @@ layout: default
 
   </div>
    </div>
-  </details>
+
   </div>
 
