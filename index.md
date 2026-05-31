@@ -319,7 +319,7 @@ layout: default
  <h4 style="color: #1d4ed8; margin-top: 25px;"> Compiled Research & Resources</h4>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
         
- <a href="ehg_basics.pdf" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+ <a href="EHG basics (1).pdf" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
   <span style="font-size: 1.5em;"></span>
   <div>
     <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">EHG Basics & Fundamentals</h5>
