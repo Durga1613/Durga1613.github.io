@@ -353,10 +353,60 @@ layout: default
         <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
       </div>
     </a>
-    
+  </details>
+  </div>
+  
 
   </div>
    </div>
+<h3 style="color: #8b5cf6; margin-top: 40px; margin-bottom: 15px; border-left: 4px solid #8b5cf6; padding-left: 10px;">Phase 2: Signal Processing & Analysis</h3>
+
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 06: DSP Filter Implementation & Spectrogram Feature Examination</span>
+      <span style="color: #8b5cf6; font-size: 0.85em;"> Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> June 01, 2026 - June 07, 2026</p>
+      
+  <div style="margin-bottom: 20px;">
+        <span style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6; padding: 4px 12px; border-radius: 20px; font-size: 0.75em; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase;">DSP Core Pipeline Initiated</span>
+   </div>
+
+  <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week marked the official transition into Phase 2, concentrating on processing the absorbed uterine EHG signals using advanced Digital Signal Processing (DSP) structures and preparing the dataset arrays for extraction diagnostics:</p>
+      
+ <ul style="color: #475569; line-height: 1.7;">
+        <li><strong style="color: #8b5cf6;">DSP Noise Reduction Filtering:</strong> Formulated and executed digital filtering algorithms designed to suppress in-vivo noise, motion artifacts, and maternal baseline wander from the raw absorbed EHG matrices. This isolates clear, high-fidelity uterine contraction bursts.</li>
+        <li><strong style="color: #8b5cf6;">Spectrogram Characterization:</strong> Examined the time-varying frequency profiles of the waves. Checking the distinct mathematical properties of these spectrogram signals allows for tracking power shifts over time across various frequency bounds.</li>
+        <li><strong style="color: #8b5cf6;">Feature Extraction Examination:</strong> Conducted a rigorous audit of the feature extraction pipeline. Assessed how statistical metrics, raw power spectral densities, and signal energy traits can be accurately derived from the filtered records to serve as robust inputs for subsequent ML classification.</li>
+        <li><strong style="color: #8b5cf6;">EMG Foundations & Classifier Matching:</strong> Grounded the processing choices by cross-examining signal nuances with general Electromyogram (EMG) behavior. Benchmarked various machine learning architectures to discover which model frameworks naturally excel when processing non-stationary biomedical data.</li>
+      </ul>
+
+ <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;"> Signal Visualization & Spectrogram Analysis</h4>
+      <p style="color: #475569; font-size: 0.9em; margin-bottom: 15px;">The following visual mappings showcase the output arrays of the algorithmic processing and frequency shifts within the observed windows:</p>
+      
+   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; margin: 20px 0;">
+        
+ <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div style="background: #f1f5f9; border-radius: 6px; padding: 40px 10px; border: 2px dashed #cbd5e1; margin-bottom: 10px;">
+            <img src="raw_vs_filtered.png" alt="Raw vs Filtered EHG Signal" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto; min-height: 150px; background: #e2e8f0;">
+            <span style="color: #94a3b8; font-size: 0.85em; font-style: italic; display: none;">Image Preview</span>
+          </div>
+          <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.9em;">EHG Signal Filtering</h5>
+          <p style="margin: 0; color: #64748b; font-size: 0.75em;">Comparison plot of raw absorbed data vs. clean DSP output.</p>
+        </div>
+
+  <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div style="background: #f1f5f9; border-radius: 6px; padding: 40px 10px; border: 2px dashed #cbd5e1; margin-bottom: 10px;">
+            <img src="spectrogram_analysis.png" alt="EHG Burst Spectrogram" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto; min-height: 150px; background: #e2e8f0;">
+            <span style="color: #94a3b8; font-size: 0.85em; font-style: italic; display: none;">Image Preview</span>
+          </div>
+          <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.9em;">Time-Frequency Spectrogram</h5>
+          <p style="margin: 0; color: #64748b; font-size: 0.75em;">Intensity plot mapping the contraction frequency shifts over time.</p>
+        </div>
+
+   </div>
 
   </div>
-
+  
