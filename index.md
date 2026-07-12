@@ -534,9 +534,8 @@ layout: default
             <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.8em;">View comprehensive overview PDF on Google Drive</p>
           </div>
         </a>
-
-    </div>
-    </div>
+      
+ </div>
   </details>
 
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
