@@ -432,8 +432,8 @@ layout: default
       <p style="color: #334155; line-height: 1.6;">This week focused on implementing the unified feature extraction pipeline, fusing distinct mathematical feature groups across all three electrical channels into a single high-dimensional numeric vector for the machine learning models:</p>
       
   <ul style="color: #475569; line-height: 1.7;">
-        <li><strong>Single-Channel Vector Formulation:</strong> Configured the logic to extract 57 distinct parameters per individual EHG channel. This contains 20 MFCC features for the short-term spectral envelope, 36 Discrete Wavelet Transform (DWT) features calculated across six wavelet sub-bands ($A_5, D_5, D_4, D_3, D_2, D_1$), and 1 peak-amplitude feature from the normalized power spectrum.</li>
-        <li><strong>Multi-Channel Concatenation ($57 \times 3 = 171$):</strong> Developed the array transformation script to join the isolated channel outputs into a final consolidated array represented as $[F_{EHG1}, F_{EHG2}, F_{EHG3}]$. This creates a comprehensive 171-dimensional feature vector for each individual signal segment.</li>
+        <li><strong>Single-Channel Vector Formulation:</strong> Configured the logic to extract 57 distinct parameters per individual EHG channel. This contains 20 MFCC features for the short-term spectral envelope, 36 Discrete Wavelet Transform (DWT) features calculated across six wavelet sub-bands, and 1 peak-amplitude feature from the normalized power spectrum.</li>
+        <li><strong>Multi-Channel Concatenation ($57 \times 3 = 171$):</strong> Developed the array transformation script to join the isolated channel outputs into a final consolidated array represented as [F_{EHG1}, F_{EHG2}, F_{EHG3}]. This creates a comprehensive 171-dimensional feature vector for each individual signal segment.</li>
         <li><strong>Physiological Value Matrix Fusion:</strong> Validated the importance of this integration. Fusing these modalities provides a comprehensive description of uterine smooth muscle kinetics: MFCC tracks overall time-varying frequency shifts, DWT statistics capture transient changes and multiscale energy distribution, and peak amplitude estimates the relative spectral focus.</li>
         <li><strong>Standardization Optimization Setup:</strong> Designed a pipeline step to standardize the combined arrays prior to classification. Because metrics like DWT energy have massive numerical variations compared to compressed MFCCs or normalized peak values, proper scaling prevents high-value bounds from dominating model training.</li>
       </ul>
@@ -457,7 +457,7 @@ layout: default
             <tr style="border-bottom: 1px solid #e2e8f0;">
               <td style="padding: 12px; font-weight: bold; color: #334155;">DWT Statistics</td>
               <td style="padding: 12px; color: #475569;">36</td>
-              <td style="padding: 12px; color: #475569;">Mean, variance, energy, absolute sum, skewness, kurtosis across sub-bands ($A_5, D_5, D_4, D_3, D_2, D_1$)</td>
+              <td style="padding: 12px; color: #475569;">Mean, variance, energy, absolute sum, skewness, kurtosis across sub-bands </td>
             </tr>
             <tr style="border-bottom: 2px solid #cbd5e1;">
               <td style="padding: 12px; font-weight: bold; color: #334155;">Normalized PSD Peak Amplitude</td>
@@ -467,7 +467,7 @@ layout: default
             <tr style="background-color: #eff6ff; font-weight: bold;">
               <td style="padding: 12px; color: #1d4ed8;">Total Vector Dimensions</td>
               <td style="padding: 12px; color: #1d4ed8;">171 features</td>
-              <td style="padding: 12px; color: #1d4ed8;">Concatenated array representation $[F_{EHG1}, F_{EHG2}, F_{EHG3}]$ across 3 channels</td>
+              <td style="padding: 12px; color: #1d4ed8;">Concatenated array representation [F_{EHG1}, F_{EHG2}, F_EHG3] across 3 channels</td>
             </tr>
           </tbody>
         </table>
@@ -555,7 +555,6 @@ layout: default
         <li><strong>Cross-Channel Interaction Mapping:</strong> Examined cross-channel relationships between the three differential EHG paths using Pearson correlation, normalized cross-correlation, magnitude-squared coherence, and cross-spectral phase. Observed strong coherence below 1 Hz indicating shared uterine activation, while vetting how small time lags could stem from electrode geometry, volume conduction, or filtering rather than direct myometrial propagation waves.</li>
         <li><strong>Electrical-Mechanical (EHG-TOCO) Interfacing:</strong> Derived continuous EHG amplitude activity envelopes via rectification, moving Root Mean Square (RMS), and the Hilbert transform. Compared these envelopes against mechanical Tocogram (TOCO) signals to analyze how electrical recruitment coordinates with physical contractions, mapping peak timing lags introduced by sensor placement, biological tissue smoothing, and peak-detection filters.</li>
       </ul>
-      </div>
       </div>
  </details>
      
