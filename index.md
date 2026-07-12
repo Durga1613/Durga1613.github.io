@@ -418,6 +418,80 @@ layout: default
         </a>
 </div>
 
+<!-- WEEK 08 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 08: Multi-Channel Feature Fusion & Array Concatenation Matrix</span>
+      <span style="color: #8b5cf6; font-size: 0.85em;">Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> June 15, 2026 - June 21, 2026</p>
+      
+   <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week focused on implementing the unified feature extraction pipeline, fusing distinct mathematical feature groups across all three electrical channels into a single high-dimensional numeric vector for the machine learning models:</p>
+      
+  <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Single-Channel Vector Formulation:</strong> Configured the logic to extract 57 distinct parameters per individual EHG channel. This contains 20 MFCC features for the short-term spectral envelope, 36 Discrete Wavelet Transform (DWT) features calculated across six wavelet sub-bands ($A_5, D_5, D_4, D_3, D_2, D_1$), and 1 peak-amplitude feature from the normalized power spectrum.</li>
+        <li><strong>Multi-Channel Concatenation ($57 \times 3 = 171$):</strong> Developed the array transformation script to join the isolated channel outputs into a final consolidated array represented as $[F_{EHG1}, F_{EHG2}, F_{EHG3}]$. This creates a comprehensive 171-dimensional feature vector for each individual signal segment.</li>
+        <li><strong>Physiological Value Matrix Fusion:</strong> Validated the importance of this integration. Fusing these modalities provides a comprehensive description of uterine smooth muscle kinetics: MFCC tracks overall time-varying frequency shifts, DWT statistics capture transient changes and multiscale energy distribution, and peak amplitude estimates the relative spectral focus.</li>
+        <li><strong>Standardization Optimization Setup:</strong> Designed a pipeline step to standardize the combined arrays prior to classification. Because metrics like DWT energy have massive numerical variations compared to compressed MFCCs or normalized peak values, proper scaling prevents high-value bounds from dominating model training.</li>
+      </ul>
+<!-- FEATURE EXTRACTION SUMMARY TABLE -->
+      <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Feature Matrix Breakdown</h4>
+      <div style="overflow-x: auto; margin: 20px 0;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9em;">
+          <thead>
+            <tr style="background-color: #f1f5f9; border-bottom: 2px solid #cbd5e1;">
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Feature Family</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Number of Features per Channel</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Statistical Measures / Extracted Properties</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">MFCC</td>
+              <td style="padding: 12px; color: #475569;">20</td>
+              <td style="padding: 12px; color: #475569;">Short-term spectral envelope, time-varying frequency patterns</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">DWT Statistics</td>
+              <td style="padding: 12px; color: #475569;">36</td>
+              <td style="padding: 12px; color: #475569;">Mean, variance, energy, absolute sum, skewness, kurtosis across sub-bands ($A_5, D_5, D_4, D_3, D_2, D_1$)</td>
+            </tr>
+            <tr style="border-bottom: 2px solid #cbd5e1;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Normalized PSD Peak Amplitude</td>
+              <td style="padding: 12px; color: #475569;">1</td>
+              <td style="padding: 12px; color: #475569;">Dominant relative spectral concentration band</td>
+            </tr>
+            <tr style="background-color: #eff6ff; font-weight: bold;">
+              <td style="padding: 12px; color: #1d4ed8;">Total Vector Dimensions</td>
+              <td style="padding: 12px; color: #1d4ed8;">171 features</td>
+              <td style="padding: 12px; color: #1d4ed8;">Concatenated array representation $[F_{EHG1}, F_{EHG2}, F_{EHG3}]$ across 3 channels</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+ <!-- FEATURE SPACE VISUALIZATION (PCA IMAGE) -->
+      <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Feature Space Dimensionality Analysis</h4>
+      <div style="text-align: center; margin: 20px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+        <img src="pca_features.png" alt="PCA of Fused 171 Dimensional EHG Feature Vectors" style="max-width: 100%; height: auto; border-radius: 6px;">
+        <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Principal Component Analysis (PCA) projection highlighting the distribution and class variance separation of the fused 171-dimensional feature vector matrices between Term and Preterm records.</em></p>
+      </div>
+
+      <!-- IMPLEMENTATION LINKS -->
+  <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Implementation & Source Material</h4>
+      <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
+        <a href="https://colab.research.google.com/drive/1aCx-4gYrRLOVl3Ph3wLeJqCTtqvxAU7x?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; transition: all 0.2s ease; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h5 style="margin: 0; color: #8b5cf6; font-size: 0.95em; line-height: 1.4;">Google Colab: 171-Dimensional Feature Fusion Implementation</h5>
+            <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.8em;">Open Python notebook executing feature grouping, channel concatenation, and standardization operations</p>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </details>
+
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">Key Research Literature</h2>
