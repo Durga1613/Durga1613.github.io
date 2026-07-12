@@ -417,6 +417,7 @@ layout: default
           </div>
         </a>
 </div>
+</details>
 
 <!-- WEEK 08 -->
   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
@@ -489,7 +490,6 @@ layout: default
         </a>
       </div>
 
-    </div>
   </details>
 
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
