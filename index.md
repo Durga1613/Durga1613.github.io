@@ -119,19 +119,22 @@ layout: default
 
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> 14-Week Progress Timeline</h2>
+  <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">14-Week Progress Timeline</h2>
   <p style="color: #64748b; margin-bottom: 25px;">Welcome to my project documentation. Click on any week below to expand and view detailed progress logs, research notes, and references directly on this page.</p>
 
+  <!-- PHASE 1 HEADER -->
   <h3 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 15px; border-left: 4px solid #3b82f6; padding-left: 10px;">Phase 1: Literature & Data Acquisition</h3>
   
- <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+  <!-- WEEK 01 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 01: Clinical Background & Foundations</span>
-      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+      <span style="color: #3b82f6; font-size: 0.85em;">Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> April 27, 2026 - May 2, 2026</p>
-      
-  <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">April 27, 2026 - May 2, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week focused on establishing the foundational biological and clinical knowledge required for preterm birth prediction, ensuring our engineering models are grounded in real medical realities:</p>
       <ul style="color: #475569; line-height: 1.7;">
         <li><strong>Biological Background:</strong> Defined the physiological differences between term and preterm birth, specifically mapping out the significant factors and clinical risk indicators that contribute to early uterine contractions during gestation.</li>
@@ -139,100 +142,77 @@ layout: default
         <li><strong>Importance of Early Detection:</strong> Established the medical necessity of our predictive engineering models. Early detection provides a critical time window for clinicians to administer preventative medications (such as corticosteroids for fetal lung development) which dramatically improve infant survival rates.</li>
       </ul>
 
-   <div style="text-align: center; margin: 30px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+  <div style="text-align: center; margin: 30px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
         <img src="mindmap.png" alt="Preterm Birth Concepts Mindmap" style="max-width: 100%; height: auto; border-radius: 6px;">
         <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Visual map of preterm birth risk factors and clinical concepts.</em></p>
       </div>
 
-  <h4 style="color: #1d4ed8; margin-top: 25px;"> Papers & Referenced Resources</h4>
+<h4 style="color: #1d4ed8; margin-top: 25px;">Papers & Referenced Resources</h4>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
         <a href="https://www.who.int/news-room/fact-sheets/detail/preterm-birth?utm_" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
-          <span style="font-size: 1.5em;"></span>
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">WHO Fact Sheet</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Global Data</p></div>
         </a>
         <a href="https://obgyn.onlinelibrary.wiley.com/doi/epdf/10.1046/j.1471-0528.2003.00012.x" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
-          <span style="font-size: 1.5em;"></span>
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Epidemiology & Causes</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Wiley Library</p></div>
         </a>
         <a href="https://www.osmosis.org/learn/Preterm_labor:_Clinical_sciences" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
-          <span style="font-size: 1.5em;"></span>
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Clinical Sciences</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Osmosis Learning</p></div>
         </a>
         <a href="https://youtu.be/xM20pkEDhhA?si=GHGujoFyBNxBM3M" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px;">
-          <span style="font-size: 1.5em;"></span>
           <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Infant Brain Dev</h5><p style="margin:0; font-size:0.75em; color:#64748b;">Brigham Hospital</p></div>
         </a>
       </div>
     </div>
   </details>
 
-  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
+  <!-- WEEK 02 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 02: Analyzing Existing Prediction Methods</span>
-      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+      <span style="color: #3b82f6; font-size: 0.85em;">Click to Expand</span>
     </summary>
-
-  <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 3, 2026 - May 10, 2026</p>
-      <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">May 3, 2026 - May 10, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week focused on evaluating current practical and experimental approaches to preterm birth prediction and prevention in modern obstetrics:</p>
-      
-  <ul style="color: #475569; line-height: 1.7;">
+      <ul style="color: #475569; line-height: 1.7;">
         <li><strong>Clinical Risk Assessment:</strong> Evaluated standard diagnostic tools including the Bishop Score (assessing cervical dilation, effacement, consistency, position, and fetal station), transvaginal cervical length ultrasound, and fetal fibronectin (fFN) testing for early detection.</li>
         <li><strong>Emerging Therapeutics & Devices:</strong> Investigated the physiological role of melatonin in stimulating nighttime uterine contractions. Reviewed the novel development of a blue LED light-emitting eye mask designed to suppress maternal melatonin production non-invasively to delay premature labor.</li>
         <li><strong>Technological Interventions:</strong> Mapped the broader landscape of modern preventative methods, including biomarker-based tests, AI-assisted prediction models, progesterone therapy, and cervical cerclage.</li>
       </ul>
-
-   <h4 style="color: #1d4ed8; margin-top: 25px;"> Papers & Referenced Resources</h4>
+      <h4 style="color: #1d4ed8; margin-top: 25px;">Papers & Referenced Resources</h4>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
-        
- <a href="https://journals.sagepub.com/doi/10.2217/whe.15.74" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-          <span style="font-size: 1.5em;"></span>
-          <div>
-            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Preterm Labor & Melatonin</h5>
-            <p style="margin:0; font-size:0.75em; color:#64748b;">SagePub Journal</p>
-          </div>
+        <a href="https://journals.sagepub.com/doi/10.2217/whe.15.74" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Preterm Labor & Melatonin</h5><p style="margin:0; font-size:0.75em; color:#64748b;">SagePub Journal</p></div>
         </a>
-
- <a href="https://arxiv.org/pdf/2602.24139" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-          <span style="font-size: 1.5em;"></span>
-          <div>
-            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">AI-Assisted Prediction Models</h5>
-            <p style="margin:0; font-size:0.75em; color:#64748b;">ArXiv Research Repository</p>
-          </div>
+        <a href="https://arxiv.org/pdf/2602.24139" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">AI-Assisted Prediction Models</h5><p style="margin:0; font-size:0.75em; color:#64748b;">ArXiv Research Repository</p></div>
         </a>
-
-   <a href="https://www.youtube.com/watch?v=1_mqL6qpdVg" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-          <span style="font-size: 1.5em;"></span>
-          <div>
-            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Targeting Preterm Labor</h5>
-            <p style="margin:0; font-size:0.75em; color:#64748b;">FSU Device Prototype</p>
-          </div>
+        <a href="https://www.youtube.com/watch?v=1_mqL6qpdVg" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Targeting Preterm Labor</h5><p style="margin:0; font-size:0.75em; color:#64748b;">FSU Device Prototype</p></div>
         </a>
-
-   </div>
-  </div>
+      </div>
+    </div>
   </details>
-  
-  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px;">
+
+  <!-- WEEK 03 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 03: Exploring Publicly Available Datasets</span>
-      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+      <span style="color: #3b82f6; font-size: 0.85em;">Click to Expand</span>
     </summary>
-  
-   <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 11, 2026 - May17, 2026</p>
-      
-  <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">May 11, 2026 - May 17, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week transitioned into data acquisition, evaluating the worldwide datasets available for tocogram (TOCO) and Electrohysterogram (EHG) signals. These signals observe uterine electrical activity and require precise processing for subsequent Machine Learning classification.</p>
       
-<h5 style="color: #1e3a8a; margin-bottom: 8px; font-size: 1em;">The 3 Major Open EHG Datasets:</h5>
+  <h5 style="color: #1e3a8a; margin-bottom: 8px; font-size: 1em;">The 3 Major Open EHG Datasets:</h5>
       <ul style="color: #475569; line-height: 1.7;">
         <li><strong style="color: #2563eb;">TPEHG DB:</strong> ~300 recordings. Consists of 19 premature and 143 term records recorded at the 23rd week of gestation, plus 19 premature and 119 term records recorded at the 31st week.</li>
         <li><strong style="color: #2563eb;">TPEHGT DS:</strong> 26 recordings (13 term + 13 preterm). This critical dataset includes simultaneous TOCO signals and expertly annotated uterine contractions.</li>
         <li><strong style="color: #2563eb;">ICEHG DS:</strong> ~126 recordings.</li>
       </ul>
-
+  
   <h5 style="color: #1e3a8a; margin-top: 20px; margin-bottom: 8px; font-size: 1em;">Secondary & Proprietary Datasets:</h5>
       <ul style="color: #475569; line-height: 1.7;">
         <li><strong>Icelandic EHG Database (iEHG):</strong> 122 recordings.</li>
@@ -241,69 +221,60 @@ layout: default
         <li><strong>Synthetic/Augmented EHG Datasets:</strong> Simulated uterine activity data generated computationally using GAN and SMOTE techniques for data balancing.</li>
       </ul>
 
-  <div style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
-        <h5 style="margin: 0 0 8px 0; color: #1e3a8a; font-size: 1.05em;"> Reality of the Field</h5>
+   <div style="background-color: #eff6ff; border-left: 4px solid #3b82f6; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
+        <h5 style="margin: 0 0 8px 0; color: #1e3a8a; font-size: 1.05em;">Reality of the Field</h5>
         <p style="margin: 0; color: #334155; line-height: 1.5;">Despite the volume of research on this topic, there are only <strong>3 major open EHG datasets worldwide</strong> (TPEHG DB, TPEHGT DS, and ICEHG DS). Everything else used in modern research is either derived subsets of these databases, restricted hospital proprietary data, or computationally simulated augmentation datasets.</p>
       </div>
 
-  <h4 style="color: #1d4ed8; margin-top: 25px;"> Dataset Documentation & Resources</h4>
+ <h4 style="color: #1d4ed8; margin-top: 25px;">Dataset Documentation & Resources</h4>
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
-        
-<a href="https://drive.google.com/file/d/1JzFJQ0KJPwJu3q5MqL4TlgkIVMbw--ls/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-          <span style="font-size: 1.5em;"></span>
-          <div>
-            <h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Primary EHG Datasets Guide</h5>
-            <p style="margin:0; font-size:0.75em; color:#64748b;">View PDF on Google Drive</p>
-          </div>
+        <a href="https://drive.google.com/file/d/1JzFJQ0KJPwJu3q5MqL4TlgkIVMbw--ls/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 6px; padding: 10px; background: white; display: flex; align-items: center; gap: 10px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div><h5 style="margin:0; color: #1e3a8a; font-size:0.85em;">Primary EHG Datasets Guide</h5><p style="margin:0; font-size:0.75em; color:#64748b;">View PDF on Google Drive</p></div>
         </a>
-
-  </div>
+      </div>
     </div>
   </details>
 
- <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+  <!-- WEEK 04 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 04: Addressing Data Imbalance & Evaluation Strategies</span>
-      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+      <span style="color: #3b82f6; font-size: 0.85em;">Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 18, 2026 - May 24, 2026</p>
-      
- <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">May 18, 2026 - May 24, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week concluded Phase 1 by analyzing a critical bottleneck in EHG-based preterm birth prediction: the severe class imbalance between Term and Preterm records, and how improperly handling it biases machine learning models.</p>
-      
- <ul style="color: #475569; line-height: 1.7;">
-<li><strong style="color: #2563eb;">The Imbalance Problem:</strong> Analyzed how datasets heavily skewed toward term birth records cause classifiers to bias toward predicting the majority class, resulting in misleadingly high overall accuracy but poor clinical utility.</li>
+      <ul style="color: #475569; line-height: 1.7;">
+        <li><strong style="color: #2563eb;">The Imbalance Problem:</strong> Analyzed how datasets heavily skewed toward term birth records cause classifiers to bias toward predicting the majority class, resulting in misleadingly high overall accuracy but poor clinical utility.</li>
         <li><strong style="color: #2563eb;">Partition-Synthesis Approach:</strong> Established the correct protocol for synthetic data generation (SMOTE/ADASYN). Datasets must be split into training and testing sets <em>first</em>, with oversampling applied <em>only</em> to the training set to prevent test data contamination.</li>
         <li><strong style="color: #2563eb;">Algorithmic Mitigation:</strong> Researched alternative solutions such as weighted loss functions in deep learning, which heavily penalize the misclassification of preterm cases without the need to generate potentially unrealistic synthetic EHG variations.</li>
         <li><strong style="color: #2563eb;">Robust Evaluation:</strong> Documented the necessity of using Stratified Cross-Validation to maintain consistent Preterm/Term ratios across all folds, ensuring evaluation stability.</li>
       </ul>
+      <div style="background-color: #fef2f2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
+        <h5 style="margin: 0 0 8px 0; color: #7f1d1d; font-size: 1.05em;">Methodological Pitfall: Data Leakage</h5>
+        <p style="margin: 0; color: #7f1d1d; line-height: 1.5;">Earlier studies in this field frequently applied oversampling techniques (like SMOTE) to the entire dataset <strong>before</strong> splitting it into training and testing sets. This causes severe data leakage, resulting in overly optimistic accuracy and AUC scores that will fail in real-world clinical applications.</p>
+      </div>
+    </div>
+  </details>
 
-<div style="background-color: #fef2f2; border-left: 4px solid #ef4444; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
-  <h5 style="margin: 0 0 8px 0; color: #7f1d1d; font-size: 1.05em;"> Methodological Pitfall: Data Leakage</h5>
-  <p style="margin: 0; color: #7f1d1d; line-height: 1.5;">Earlier studies in this field frequently applied oversampling techniques (like SMOTE) to the entire dataset <strong>before</strong> splitting it into training and testing sets. This causes severe data leakage, resulting in overly optimistic accuracy and AUC scores that will fail in real-world clinical applications.</p>
-      </div>
-      </div>
-      </div>
-      </details>
-   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+  <!-- WEEK 05 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 05: Electrophysiological Mechanics & Literature Critique</span>
-      <span style="color: #3b82f6; font-size: 0.85em;"> Click to Expand</span>
+      <span style="color: #3b82f6; font-size: 0.85em;">Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> May 25, 2026 - May 31, 2026</p>
-      
-  <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">May 25, 2026 - May 31, 2026</p>
+      <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week bridged the gap between raw biological signals and algorithmic history, diving deep into how EHG mechanically differs from other bodily signals and conducting a critical audit of past research papers.</p>
       
- <h5 style="color: #1e3a8a; margin-bottom: 8px; font-size: 1em;">1. Electrophysiological Fundamentals</h5>
+   <h5 style="color: #1e3a8a; margin-bottom: 8px; font-size: 1em;">1. Electrophysiological Fundamentals</h5>
       <ul style="color: #475569; line-height: 1.7;">
         <li><strong style="color: #2563eb;">EHG vs. EMG Core Mechanics:</strong> Established that an Electrohysterogram (EHG) is essentially a highly specialized form of Electromyogram (EMG). While standard EMG measures voluntary, striated skeletal muscles, EHG measures the involuntary, smooth muscle of the uterus. Mapped the mechanical differences in action potential propagation between these two muscle types.</li>
         <li><strong style="color: #2563eb;">Signal Disambiguation:</strong> Differentiated EHG from ECG (cardiac), EOG (ocular), and EEG (cerebral). Clarified that while EEG measures brain wave activity (neural pacing), EMG and EHG measure actual contractile muscle forces (myometrial activity).</li>
         <li><strong style="color: #2563eb;">Maternal Artifacts:</strong> Investigated how maternal ECG (heartbeat) and respiration naturally interfere with the low-frequency EHG signals, confirming the necessity of precise signal filtering.</li>
       </ul>
-      
 
   <h5 style="color: #1e3a8a; margin-top: 20px; margin-bottom: 8px; font-size: 1em;">2. Literature & Algorithmic Critique</h5>
       <ul style="color: #475569; line-height: 1.7;">
@@ -311,79 +282,44 @@ layout: default
         <li><strong style="color: #2563eb;">Identifying Research Flaws:</strong> Audited key literature to document common mistakes, such as applying synthetic data generation (SMOTE) before dataset partitioning (causing data leakage) and failing to address the severe constraints and imbalances of standard datasets (like TPEHG).</li>
         <li><strong style="color: #2563eb;">Modern Corrections:</strong> Analyzed how state-of-the-art papers have corrected these early mistakes using stratified cross-validation and weighted loss functions.</li>
       </ul>
-       <a href="https://drive.google.com/file/d/1t3RKYueqmvzKgnZ56iZWlKnihGQGLKph/view?usp=drive_link" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-      <span style="font-size: 2.2em;"></span>
-      <div>
-        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Summary of EHG Basics & Fundamentals</h4>
-        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View PDF on Google Drive</p>
-      </div>
-    </a>
-  </div>
 
-
- <div style="text-align: center; margin: 30px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+   <div style="text-align: center; margin: 30px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
         <img src="research image.png" alt="Medical Terminology and Signal Visualization" style="max-width: 100%; height: auto; border-radius: 6px;">
         <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Visualization of EHG mechanics, medical terminology, and signal generation.</em></p>
       </div>
-      
 
- <h4 style="color: #1d4ed8; margin-top: 25px;"> Compiled Research & Resources</h4>
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 10px;">
-        
-<div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> Key Research Literature</h2>
-  <p style="color: #64748b; margin-bottom: 25px;">The methodologies and signal processing pipelines implemented in this project are heavily informed by the following foundational research papers and fundamental studies.</p>
-  
-  <div style="display: flex; flex-direction: column; gap: 15px;">
-    
- 
-
-  <a href="https://drive.google.com/file/d/1xJkNG6TNzZzHifhExdRuAi6ES_DsuhQV/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-      <span style="font-size: 2.2em;"></span>
-      <div>
-        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Peak amplitude of the normalized power spectrum of the electromyogram of the uterus in the low frequency band is an effective predictor of premature birth</h4>
-        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
+   <h4 style="color: #1d4ed8; margin-top: 25px;">Compiled Research & Resources</h4>
+      <div style="display: flex; flex-direction: column; gap: 15px; margin-top: 10px;">
+        <a href="https://drive.google.com/file/d/1t3RKYueqmvzKgnZ56iZWlKnihGQGLKph/view?usp=drive_link" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Summary of EHG Basics & Fundamentals</h4>
+            <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View PDF on Google Drive</p>
+          </div>
+        </a>
       </div>
-    </a>
-
-  <a href="https://drive.google.com/file/d/1KrseYCDdW0P1AxW_Tjt4fvyIu-m-bxFL/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-      <span style="font-size: 2.2em;"></span>
-      <div>
-        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Characterization and automatic classification of preterm and term uterine records</h4>
-        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
-      </div>
-    </a>
+    </div>
   </details>
-  </div>
 
-  </div>
-
-  
-  </div>
-  </details>
-</div> <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  
-  <h2 style="color: #8b5cf6; border-bottom: 2px solid #ddd6fe; padding-bottom: 10px; margin-top: 0; display: flex; align-items: center; gap: 10px;">
-    <span> Phase 2: Signal Processing & Analysis</span>
-  </h2>
+  <!-- PHASE 2 HEADER -->
+  <h3 style="color: #8b5cf6; margin-top: 40px; margin-bottom: 15px; border-left: 4px solid #ddd6fe; padding-left: 10px;">Phase 2: Signal Processing & Analysis</h3>
   <p style="color: #64748b; margin-bottom: 25px;">This section documents the execution of the digital signal processing pipelines, algorithmic filtering mechanics, spectrogram evaluations, and wave feature extraction matrices.</p>
 
+  <!-- WEEK 06 -->
   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 06: DSP Filter Implementation & Spectrogram Feature Examination</span>
-      <span style="color: #8b5cf6; font-size: 0.85em;"> Click to Expand</span>
+      <span style="color: #8b5cf6; font-size: 0.85em;">Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
       <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">June 01, 2026 - June 07, 2026</p>
       
- <div style="margin-bottom: 20px;">
+  <div style="margin-bottom: 20px;">
         <span style="background: rgba(139, 92, 246, 0.15); color: #8b5cf6; padding: 4px 12px; border-radius: 20px; font-size: 0.75em; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase;">DSP Core Pipeline Initiated</span>
       </div>
 
-  <h4 style="color: #1d4ed8; margin-top: 0;"> Tasks & Accomplishments</h4>
+  <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week marked the official transition into Phase 2, concentrating on processing the absorbed uterine EHG signals using advanced Digital Signal Processing (DSP) structures and preparing the dataset arrays for extraction diagnostics:</p>
-      
- <ul style="color: #475569; line-height: 1.7;">
+      <ul style="color: #475569; line-height: 1.7;">
         <li><strong style="color: #8b5cf6;">DSP Noise Reduction Filtering:</strong> Formulated and executed digital filtering algorithms designed to suppress in-vivo noise, motion artifacts, and maternal baseline wander from the raw absorbed EHG matrices. This isolates clear, high-fidelity uterine contraction bursts.</li>
         <li><strong style="color: #8b5cf6;">Spectrogram Characterization:</strong> Examined the time-varying frequency profiles of the waves. Checking the distinct mathematical properties of these spectrogram signals allows for tracking power shifts over time across various frequency bounds.</li>
         <li><strong style="color: #8b5cf6;">Feature Extraction Examination:</strong> Conducted a rigorous audit of the feature extraction pipeline. Assessed how statistical metrics, raw power spectral densities, and signal energy traits can be accurately derived from the filtered records to serve as robust inputs for subsequent ML classification.</li>
@@ -393,13 +329,12 @@ layout: default
   <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Signal Visualization & Spectrogram Analysis</h4>
       <p style="color: #475569; font-size: 0.9em; margin-bottom: 15px;">The following visual mappings showcase the output arrays of the algorithmic processing and frequency shifts within the observed windows:</p>
       
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; margin: 20px 0;">
-        
-  <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
-  <div style="background: #f1f5f9; border-radius: 6px; padding: 10px; border: 1px dashed #cbd5e1; margin-bottom: 12px;">
-   <img src="raw_vs_filtered.png" alt="Raw vs Filtered EHG Signal" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto;">
-       </div>
-          <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.95em;"> EHG Signal Filtering</h5>
+   <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 15px; margin: 20px 0;">
+        <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div style="background: #f1f5f9; border-radius: 6px; padding: 10px; border: 1px dashed #cbd5e1; margin-bottom: 12px;">
+            <img src="raw_vs_filtered.png" alt="Raw vs Filtered EHG Signal" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto;">
+          </div>
+          <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.95em;">EHG Signal Filtering</h5>
           <p style="margin: 0; color: #64748b; font-size: 0.8em; line-height: 1.4;">Comparison plot of raw absorbed data waves versus the cleaned up DSP filter output strings.</p>
         </div>
 
@@ -407,9 +342,36 @@ layout: default
           <div style="background: #f1f5f9; border-radius: 6px; padding: 10px; border: 1px dashed #cbd5e1; margin-bottom: 12px;">
             <img src="spectrogram_analysis.png" alt="EHG Burst Spectrogram" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto;">
           </div>
-  <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.95em;"> Time-Frequency Spectrogram</h5>
+          <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.95em;">Time-Frequency Spectrogram</h5>
           <p style="margin: 0; color: #64748b; font-size: 0.8em; line-height: 1.4;">Intensity magnitude spectrum tracking uterine smooth muscle contraction burst variations.</p>
         </div>
+      </div>
+    </div>
+  </details>
+
+</div>
+
+<!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
+<div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">Key Research Literature</h2>
+  <p style="color: #64748b; margin-bottom: 25px;">The methodologies and signal processing pipelines implemented in this project are heavily informed by the following foundational research papers and fundamental studies.</p>
+  
+  <div style="display: flex; flex-direction: column; gap: 15px;">
+    <a href="https://drive.google.com/file/d/1xJkNG6TNzZzHifhExdRuAi6ES_DsuhQV/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+      <div>
+        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Peak amplitude of the normalized power spectrum of the electromyogram of the uterus in the low frequency band is an effective predictor of premature birth</h4>
+        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
+      </div>
+    </a>
+
+  <a href="https://drive.google.com/file/d/1KrseYCDdW0P1AxW_Tjt4fvyIu-m-bxFL/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+    <div>
+        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Characterization and automatic classification of preterm and term uterine records</h4>
+        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
+    </div>
+  </a>
+  </div>
+</div>
 
       </div>
 
