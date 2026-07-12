@@ -545,7 +545,7 @@ layout: default
       <span style="color: #8b5cf6; font-size: 0.85em;">Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">🗓️ June 29, 2026 - July 05, 2026</p>
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;"> July6 , 2026 - July 12, 2026</p>
       
    <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week extended the physiological and signal-processing interpretation of the TPEHGT dataset records by evaluating advanced short-time spectral transformations, cross-channel coherence, and the mechanical-electrical properties of uterine tissue:</p>
