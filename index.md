@@ -367,12 +367,20 @@ layout: default
         <li><strong>Pipeline Prototyping:</strong> Initiated the baseline programmatic scripts to calculate 20 MFCC coefficients and 36 statistical wavelet parameters (mean, variance, energy, absolute sum, skewness, and kurtosis per channel) to build out a robust feature matrix.</li>
       </ul>
 
+<!-- 3 MIN WINDOW SEGMENTATION -->     
+  <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">3  Min Window </h4>
+      <div style="text-align: center; margin: 20px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+        <img src="3minwindow.png" alt="Pipeline for EHG Signals Based Preterm Birth Detection" style="max-width: 100%; height: auto; border-radius: 6px;">
+        <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>3 Min interval window segmnetation of signal.</em></p>
+      </div>
+
 <!-- PIPELINE IMAGE INTEGRATION -->
    <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Pipeline Architecture Flowchart</h4>
       <div style="text-align: center; margin: 20px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
         <img src="pipeline.png" alt="Pipeline for EHG Signals Based Preterm Birth Detection" style="max-width: 100%; height: auto; border-radius: 6px;">
         <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Schematic diagram detailing the complete EHG signal conditioning, feature processing, and classification pipeline stages.</em></p>
       </div>
+
   <!-- WEEK 07 REFERENCES & IMPLEMENTATION LINKS -->
       <h4 style="color: #1d4ed8; margin-top: 25px;">Compiled Research & Implementation Links</h4>
       <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
@@ -402,7 +410,7 @@ layout: default
         </a>
 
         <!-- Google Form Link -->
-   <a href="https://colab.research.google.com/drive/1ncNsMyoZYbmtvmgpA2m8em6Eqp2V0CeY?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; display: flex; align-items: center; gap: 15px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+   <a href="https://colab.research.google.com/drive/18Ff8o6OL_FMZlG_QsewRkzi6tn-5nu2v?usp=sharing" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; display: flex; align-items: center; gap: 15px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
           <div>
             <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">MFCC & DWT Implementation </h4>
             <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">Access verification log for algorithmic implementations</p>
