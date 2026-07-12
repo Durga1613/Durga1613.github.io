@@ -492,6 +492,53 @@ layout: default
 
   </details>
 
+  <!-- WEEK 09 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 09: Cross-Validation Frameworks & Structural Data Leakage Critique</span>
+      <span style="color: #8b5cf6; font-size: 0.85em;">Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">🗓️ June 22, 2026 - June 28, 2026</p>
+      
+   <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week targeted the architectural design of the evaluation matrix, dissecting cross-validation strategies, and critiquing the critical oversampling errors that historically skewed machine learning performance in uterine electromyography literature:</p>
+      
+  <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Stratified Cross-Validation Architecture:</strong> Evaluated a 5-fold cross-validation setup where the dataset arrays are split into five sections, training iteratively on four folds while holding out the remaining fold for verification. Stratification ensures that the clinical balance between term and preterm observations is perfectly mirrored across all evaluation windows. Combined this with 20 independent rounds of balanced sampling to stabilize metric output distributions.</li>
+        <li><strong>Oversampling Order Error Analysis:</strong> Conducted a rigorous methodological audit based on a pivotal 2021 research paper by Vandewiele and colleagues. Analyzed how applying synthetic oversampling algorithms (such as SMOTE or ADASYN) *before* separating training and testing data introduces fatal data leakage, causing model parameters to memorize validation properties rather than generalise to unseen patient physiology.</li>
+        <li><strong>Performance Discrepancy Benchmarking:</strong> Analyzed the mathematical impact of the SMOTE placement error. The 2021 study demonstrated that improper synthetic generation could inflate Area Under the Curve (AUC) scores to 0.95 even when running on purely randomized noise data. Correcting this validation protocol caused previously published EHG model accuracies near 0.99 to drop dramatically to baseline ranges between 0.50 and 0.65.</li>
+        <li><strong>Uterine Pipeline Corrections:</strong> Reviewed how the 2025 research paper corrected this flaw by dropping synthetic oversampling completely, choosing repeated random undersampling with stratified validation instead. Noted that while this provides a safer methodology, validation at the segment level still risks minor window leakage from the same pregnancy.</li>
+        <li><strong>Optimized Structural Protocol:</strong> Formulated the blueprint for our ultimate validation engine: partitioning data strictly by unique patient records first, executing class-balancing constraints exclusively inside individual training loops, maintaining the original minority test distributions, tracking imbalance-sensitive metrics, and evaluating final matrices against completely separate external data pools.</li>
+      </ul>
+ <!-- EXPERIMENTAL PROTOCOL WARNING BOX -->
+      <div style="background-color: #fffbeb; border-left: 4px solid #f59e0b; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
+        <h5 style="margin: 0 0 8px 0; color: #78350f; font-size: 1.05em;">Methodological Conclusion on Model Validation</h5>
+        <p style="margin: 0; color: #78350f; line-height: 1.5;">To build a clinically deployable model, feature spaces must be isolated at the individual patient level before any temporal slicing or windowing occurs. Oversampling within the entire dataset pool measures dataset memorization rather than actual physiological predictive capacity on unseen pregnant individuals.</p>
+      </div>
+ <!-- WEEK 09 COMPILED RESOURCES -->
+      <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Compiled Technical Briefs</h4>
+      <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
+         <!-- Document 1: Cross Validation Brief -->
+        <a href="https://drive.google.com/file/d/1z6IipVCckVbLU5zzawap7hJPNhf9SA-v/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; transition: all 0.2s ease; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h5 style="margin: 0; color: #1e3a8a; font-size: 0.95em; line-height: 1.4;">Technical Brief: Cross-Validation Foundations & Stratification Mechanics</h5>
+            <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.8em;">View brief summary PDF on Google Drive</p>
+          </div>
+        </a>
+
+        <!-- Document 2: Oversampling Brief -->
+   <a href="https://drive.google.com/file/d/1FHyCgW7JpefzIeN1Jw8RTrMv-b44aVam/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; transition: all 0.2s ease; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h5 style="margin: 0; color: #1e3a8a; font-size: 0.95em; line-height: 1.4;">Technical Brief: Oversampling Techniques, Class Imbalances, & Leakage Vectors</h5>
+            <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.8em;">View comprehensive overview PDF on Google Drive</p>
+          </div>
+        </a>
+
+    </div>
+    </div>
+  </details>
+
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">Key Research Literature</h2>
