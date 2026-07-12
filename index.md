@@ -381,8 +381,8 @@ layout: default
         <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Schematic diagram detailing the complete EHG signal conditioning, feature processing, and classification pipeline stages.</em></p>
       </div>
 
-  <!-- WEEK 07 REFERENCES & IMPLEMENTATION LINKS -->
-      <h4 style="color: #1d4ed8; margin-top: 25px;">Compiled Research & Implementation Links</h4>
+ <!-- WEEK 07 REFERENCES & IMPLEMENTATION LINKS -->
+  <h4 style="color: #1d4ed8; margin-top: 25px;">Compiled Research & Implementation Links</h4>
       <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
         
  <!-- 2025 Research Paper Link -->
