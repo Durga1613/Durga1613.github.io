@@ -117,8 +117,7 @@ layout: default
   </div>
 </div>
 
-<div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;"> 14-Week Progress Timeline</h2>
+
   <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">14-Week Progress Timeline</h2>
   <p style="color: #64748b; margin-bottom: 25px;">Welcome to my project documentation. Click on any week below to expand and view detailed progress logs, research notes, and references directly on this page.</p>
@@ -416,6 +415,7 @@ layout: default
             <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">Access verification log for algorithmic implementations</p>
           </div>
         </a>
+</div>
 </div>
 </details>
 
