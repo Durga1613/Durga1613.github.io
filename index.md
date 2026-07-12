@@ -555,7 +555,9 @@ layout: default
         <li><strong>Cross-Channel Interaction Mapping:</strong> Examined cross-channel relationships between the three differential EHG paths using Pearson correlation, normalized cross-correlation, magnitude-squared coherence, and cross-spectral phase. Observed strong coherence below 1 Hz indicating shared uterine activation, while vetting how small time lags could stem from electrode geometry, volume conduction, or filtering rather than direct myometrial propagation waves.</li>
         <li><strong>Electrical-Mechanical (EHG-TOCO) Interfacing:</strong> Derived continuous EHG amplitude activity envelopes via rectification, moving Root Mean Square (RMS), and the Hilbert transform. Compared these envelopes against mechanical Tocogram (TOCO) signals to analyze how electrical recruitment coordinates with physical contractions, mapping peak timing lags introduced by sensor placement, biological tissue smoothing, and peak-detection filters.</li>
       </ul>
-
+      </div>
+      </div>
+ </details>
      
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
@@ -582,7 +584,7 @@ layout: default
     </div>
   </a>
   </div>
-
+ </div>
 
 
  
