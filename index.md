@@ -416,8 +416,6 @@ layout: default
             <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">Access verification log for algorithmic implementations</p>
           </div>
         </a>
-
-  </details>
 </div>
 
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
