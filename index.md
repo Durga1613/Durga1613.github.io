@@ -489,7 +489,7 @@ layout: default
           </div>
         </a>
       </div>
-
+  </div>
   </details>
 
   <!-- WEEK 09 -->
@@ -534,10 +534,29 @@ layout: default
             <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.8em;">View comprehensive overview PDF on Google Drive</p>
           </div>
         </a>
-      
+ </div> 
  </div>
   </details>
 
+  <!-- WEEK 10 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 10: Advanced Time-Frequency parameters, Cross-Channel Dynamics & EHG-TOCO Alignment</span>
+      <span style="color: #8b5cf6; font-size: 0.85em;">Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">🗓️ June 29, 2026 - July 05, 2026</p>
+      
+   <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week extended the physiological and signal-processing interpretation of the TPEHGT dataset records by evaluating advanced short-time spectral transformations, cross-channel coherence, and the mechanical-electrical properties of uterine tissue:</p>
+      
+   <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Short-Time Fourier Transform (STFT) Parameterization:</strong> Analyzed non-stationary EHG signals using STFT spectrograms across a complete 30-minute recording, fixed 3-minute windows, annotated contraction intervals, and dummy segments. Studied the mathematical trade-offs between time and frequency resolution by adjusting window duration (with an established baseline of 20-30 seconds), overlap percentages (50-75%), FFT lengths, and logarithmic power scaling to track low-frequency contraction energy below 1 Hz while mapping transient maternal cardiac artifacts between 1 and 5 Hz.</li>
+        <li><strong>Cross-Channel Interaction Mapping:</strong> Examined cross-channel relationships between the three differential EHG paths using Pearson correlation, normalized cross-correlation, magnitude-squared coherence, and cross-spectral phase. Observed strong coherence below 1 Hz indicating shared uterine activation, while vetting how small time lags could stem from electrode geometry, volume conduction, or filtering rather than direct myometrial propagation waves.</li>
+        <li><strong>Electrical-Mechanical (EHG-TOCO) Interfacing:</strong> Derived continuous EHG amplitude activity envelopes via rectification, moving Root Mean Square (RMS), and the Hilbert transform. Compared these envelopes against mechanical Tocogram (TOCO) signals to analyze how electrical recruitment coordinates with physical contractions, mapping peak timing lags introduced by sensor placement, biological tissue smoothing, and peak-detection filters.</li>
+      </ul>
+
+     
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
   <h2 style="color: #1e3a8a; border-bottom: 2px solid #bfdbfe; padding-bottom: 10px; margin-top: 0;">Key Research Literature</h2>
