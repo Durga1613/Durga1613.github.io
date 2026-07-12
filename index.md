@@ -348,7 +348,68 @@ layout: default
       </div>
     </div>
   </details>
+<!-- WEEK 07 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 07: Research Pipeline Mapping & Feature Transformation Explorations</span>
+      <span style="color: #8b5cf6; font-size: 0.85em;">Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">June 08, 2026 - June 14, 2026</p>
+      
+  <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week focused on mapping out the architectural direction of our processing framework by dissecting a benchmark 2025 research paper pipeline and initiating empirical implementations on the TPEHGT DS dataset:</p>
+      
+   <ul style="color: #475569; line-height: 1.7;">
+        <li><strong>Dataset Segmentation:</strong> Transitioned to working with the TPEHGT DS dataset. Broke down the continuous 30-minute signals into fixed 3-minute intervals to simulate real-time patient monitoring without relying on manual contraction annotations.</li>
+        <li><strong>Literature Pipeline Analysis:</strong> Evaluated an established processing framework structured as follows: Dataset -> Butterworth Filter -> Karhunen-Loève Theorem (KLT) Denoising -> Segmentation -> Feature Extraction -> Feature Vector Construction -> Balanced Sampling -> ML Classification -> 5-Fold Cross-Validation.</li>
+        <li><strong>Mathematical Feature Explorations:</strong> Studied Mel-Frequency Cepstral Coefficients (MFCCs) to capture low-frequency spectro-temporal uterine activity, alongside Discrete Wavelet Transforms (DWT) utilizing Daubechies 8 (db8) mother wavelets over 5 decomposition sub-bands.</li>
+        <li><strong>Pipeline Prototyping:</strong> Initiated the baseline programmatic scripts to calculate 20 MFCC coefficients and 36 statistical wavelet parameters (mean, variance, energy, absolute sum, skewness, and kurtosis per channel) to build out a robust feature matrix.</li>
+      </ul>
 
+<!-- PIPELINE IMAGE INTEGRATION -->
+   <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Pipeline Architecture Flowchart</h4>
+      <div style="text-align: center; margin: 20px 0; background: white; padding: 15px; border-radius: 10px; border: 1px solid #e2e8f0; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+        <img src="pipeline.png" alt="Pipeline for EHG Signals Based Preterm Birth Detection" style="max-width: 100%; height: auto; border-radius: 6px;">
+        <p style="color: #64748b; font-size: 0.85em; margin-top: 10px; margin-bottom: 5px;"><em>Schematic diagram detailing the complete EHG signal conditioning, feature processing, and classification pipeline stages.</em></p>
+      </div>
+  <!-- WEEK 07 REFERENCES & IMPLEMENTATION LINKS -->
+      <h4 style="color: #1d4ed8; margin-top: 25px;">Compiled Research & Implementation Links</h4>
+      <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
+        
+ <!-- 2025 Research Paper Link -->
+  <a href="https://drive.google.com/file/d/1_9MXsZnpsHJn_rJ9F-ueIXWHAGQ9Txog/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; display: flex; align-items: center; gap: 15px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">2025 EHG Preterm Prediction Reference Paper</h4>
+            <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View benchmark literature pipeline study</p>
+          </div>
+        </a>
+
+        <!-- Wavelet Transform PDF Link -->
+   <a href="https://drive.google.com/file/d/1U5NTuIzn1tOTbUBn34bgkZXlkKwDC3ZF/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; display: flex; align-items: center; gap: 15px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Wavelet Transforms Technical Notes</h4>
+            <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View comprehensive discrete wavelet analysis document</p>
+          </div>
+        </a>
+
+        <!-- MFCC Analysis PDF Link -->
+   <a href="https://drive.google.com/file/d/1ssZBcU4mjN_vEN7o91erbRqTiEhXSASP/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; display: flex; align-items: center; gap: 15px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">MFCC Spectro-Temporal Analysis Notes</h4>
+            <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View uterine low-frequency cepstral coefficient summary</p>
+          </div>
+        </a>
+
+        <!-- Google Form Link -->
+   <a href="https://colab.research.google.com/drive/1ncNsMyoZYbmtvmgpA2m8em6Eqp2V0CeY?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; display: flex; align-items: center; gap: 15px; transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">MFCC & DWT Implementation </h4>
+            <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">Access verification log for algorithmic implementations</p>
+          </div>
+        </a>
+
+  </details>
 </div>
 
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
@@ -363,7 +424,12 @@ layout: default
         <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
       </div>
     </a>
-
+ <a href="https://drive.google.com/file/d/1_9MXsZnpsHJn_rJ9F-ueIXWHAGQ9Txog/view?usp=drive_link" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+      <div>
+        <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Spectrotemporal Feature Extraction in EHG Signals and Tocograms for Enhanced Preterm Birth Prediction</h4>
+        <p style="margin: 6px 0 0 0; color: #64748b; font-size: 0.85em;">View full text via Google Drive</p>
+      </div>
+    </a>
   <a href="https://drive.google.com/file/d/1KrseYCDdW0P1AxW_Tjt4fvyIu-m-bxFL/view?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 20px; background: #f8fafc; transition: all 0.2s ease; display: flex; align-items: center; gap: 15px; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
     <div>
         <h4 style="margin: 0; color: #1e3a8a; font-size: 1.05em; line-height: 1.4;">Characterization and automatic classification of preterm and term uterine records</h4>
@@ -371,13 +437,9 @@ layout: default
     </div>
   </a>
   </div>
-</div>
 
-      </div>
 
-    </div>
-  </details>
-  
-</div> ```
+
+ 
 
 
