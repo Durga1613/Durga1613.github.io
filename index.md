@@ -568,22 +568,21 @@ layout: default
             <img src="stft.png" alt="First Visualization Plot" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto;">
           </div>
           <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.95em;">STFT Spectrogram</h5>
-          <p style="margin: 0; color: #64748b; font-size: 0.8em; line-height: 1.4;">STFT Spectrogram.</p>
         </div>
 
         <!-- Image Card 2 -->
    <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
           <div style="background: #f1f5f9; border-radius: 6px; padding: 10px; border: 1px dashed #cbd5e1; margin-bottom: 12px;">
-            <img src="YOUR_IMAGE_NAME_2.png" alt="Second Visualization Plot" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto;">
-          </d         
+            <img src="crosscorrelation.png" alt="Second Visualization Plot" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto;">
+          </div>
+         <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.95em;">Cross Correlation</h5>
         </div>
-
       </div>
 
       <!-- GOOGLE COLAB RESOURCE LINK -->
   <h4 style="color: #1d4ed8; margin-top: 25px; margin-bottom: 12px;">Source Code & Implementation</h4>
       <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
-        <a href="PASTE_YOUR_GOOGLE_COLAB_LINK_HERE" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; transition: all 0.2s ease; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+        <a href="https://colab.research.google.com/drive/1tx6hJ5vChg73LFCGwVSf3mIIie-4b-d7?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; transition: all 0.2s ease; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
           <div>
             <h5 style="margin: 0; color: #8b5cf6; font-size: 0.95em; line-height: 1.4;">Google Colab: Algorithmic Implementation Notebook</h5>
             <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.8em;">Open Python notebook executing this week's data array transformations and pipeline functions</p>
