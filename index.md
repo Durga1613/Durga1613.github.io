@@ -617,6 +617,7 @@ layout: default
   </a>
   </div>
  </div>
+ </details>
 
 
  
