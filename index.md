@@ -575,9 +575,7 @@ layout: default
    <div style="background: white; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
           <div style="background: #f1f5f9; border-radius: 6px; padding: 10px; border: 1px dashed #cbd5e1; margin-bottom: 12px;">
             <img src="YOUR_IMAGE_NAME_2.png" alt="Second Visualization Plot" style="max-width: 100%; height: auto; border-radius: 4px; display: block; margin: 0 auto;">
-          </div>
-          <h5 style="margin: 5px 0 2px 0; color: #1e3a8a; font-size: 0.95em;">Crosscorrelation Matrix</h5>
-          <p style="margin: 0; color: #64748b; font-size: 0.8em; line-height: 1.4;">Crosscorrelation Matrix.</p>
+          </d         
         </div>
 
       </div>
