@@ -676,7 +676,8 @@ layout: default
 
   </div>
   </details>
-
+ </div>
+  </details>
      
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
