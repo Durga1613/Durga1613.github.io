@@ -589,7 +589,94 @@ layout: default
           </div>
         </a>
       </div>
- </details>
+      <!-- ==================== PHASE 3 ==================== -->
+<div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+  <h2 style="color: #d97706; border-bottom: 2px solid #fef3c7; padding-bottom: 10px; margin-top: 0; display: flex; align-items: center; gap: 10px;">
+    <span>Phase 3: Machine Learning Model Benchmarking & Adaptation</span>
+  </h2>
+  <p style="color: #64748b; margin-bottom: 25px;">This phase focuses on evaluating, adapting, and fine-tuning classical statistical classifiers, ensemble learning frameworks, and neural network architectures for uterine EHG feature sets.</p>
+
+  <!-- WEEK 11 -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 11: Machine Learning Classifier Foundations & Preterm Adaptation</span>
+      <span style="color: #d97706; font-size: 0.85em;">Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">July 06, 2026 - July 12, 2026</p>
+      
+   <div style="margin-bottom: 20px;">
+        <span style="background: rgba(217, 119, 6, 0.15); color: #d97706; padding: 4px 12px; border-radius: 20px; font-size: 0.75em; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase;">Phase 3 Initiated</span>
+      </div>
+
+   <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week initiated Phase 3 by conducting a comprehensive audit of eight prominent machine learning architectures, analyzing their theoretical foundations, and evaluating how each model adapts to non-linear uterine electrical activity for preterm birth prediction:</p>
+      
+   <ul style="color: #475569; line-height: 1.7;">
+        <li><strong style="color: #d97706;">Linear & Quadratic Boundaries (LR & QDA):</strong> Studied Logistic Regression (LR) as a probabilistic linear baseline and Quadratic Discriminant Analysis (QDA) to model non-linear class covariance differences between term and preterm uterine dynamics.</li>
+        <li><strong style="color: #d97706;">Margin & Tree Models (SVM & DT):</strong> Evaluated Support Vector Machines (SVM) with Radial Basis Function (RBF) kernels to project multi-channel feature vectors into higher-dimensional decision spaces, alongside Decision Trees (DT) for interpretable thresholding of spectral features.</li>
+        <li><strong style="color: #d97706;">Ensemble Architectures (RF, GB, CB):</strong> Audited Bagging and Boosting frameworks—including Random Forests (RF), Gradient Boosting (GB), and CatBoost (CB)—to analyze how ensemble decision trees reduce feature variance, handle noisy biological signals, and mitigate overfitting on small sample sizes.</li>
+        <li><strong style="color: #d97706;">Neural Networks (MLP):</strong> Investigated Multi-Layer Perceptrons (MLP) to explore feedforward artificial neural structures capable of learning complex non-linear combinations of time-frequency and statistical EHG parameters.</li>
+      </ul>
+  <!-- CLASSIFIER EVALUATION TABLE -->
+      <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Machine Learning Model Taxonomy for EHG Classification</h4>
+      <div style="overflow-x: auto; margin: 20px 0;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9em;">
+          <thead>
+            <tr style="background-color: #f1f5f9; border-bottom: 2px solid #cbd5e1;">
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Model Family</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Classifier</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Role & Contribution to Preterm Birth Prediction</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Statistical / Linear</td>
+              <td style="padding: 12px; color: #475569;">Logistic Regression (LR)</td>
+              <td style="padding: 12px; color: #475569;">Provides a linear baseline to measure class separability and log-odds probabilities.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Discriminant Analysis</td>
+              <td style="padding: 12px; color: #475569;">Quadratic Discriminant Analysis (QDA)</td>
+              <td style="padding: 12px; color: #475569;">Models distinct covariance matrices for term vs. preterm contraction features.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Kernel Method</td>
+              <td style="padding: 12px; color: #475569;">Support Vector Machine (SVM)</td>
+              <td style="padding: 12px; color: #475569;">Maximizes margin boundaries in high-dimensional feature spaces using RBF kernels.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Rule-Based</td>
+              <td style="padding: 12px; color: #475569;">Decision Tree (DT)</td>
+              <td style="padding: 12px; color: #475569;">Establishes interpretable split thresholds for individual spectral and temporal metrics.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Bagging Ensemble</td>
+              <td style="padding: 12px; color: #475569;">Random Forest (RF)</td>
+              <td style="padding: 12px; color: #475569;">Aggregates multiple decision trees to reduce variance and quantify feature importance.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Boosting Ensemble</td>
+              <td style="padding: 12px; color: #475569;">Gradient Boosting (GB)</td>
+              <td style="padding: 12px; color: #475569;">Iteratively corrects classification errors across weak learners to improve sensitivity.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Gradient Boosting</td>
+              <td style="padding: 12px; color: #475569;">CatBoost (CB)</td>
+              <td style="padding: 12px; color: #475569;">Handles categorical variables and reduces target leakage during tree construction.</td>
+            </tr>
+            <tr style="border-bottom: 2px solid #cbd5e1;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Neural Network</td>
+              <td style="padding: 12px; color: #475569;">Multi-Layer Perceptron (MLP)</td>
+              <td style="padding: 12px; color: #475569;">Learns complex non-linear combinations of features through hidden layers and backpropagation.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+  </div>
+  </details>
+
      
 <!-- EXTERNAL INDEPENDENT LITERATURE CONTAINER -->
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
@@ -617,7 +704,7 @@ layout: default
   </a>
   </div>
  </div>
- </details>
+
 
 
  
