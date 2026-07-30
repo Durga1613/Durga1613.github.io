@@ -744,10 +744,10 @@ layout: default
         <p style="margin: 0; color: #14532d; line-height: 1.5;">In medical signal processing, evaluating models exclusively on accuracy leads to flawed conclusions. By coupling Sensitivity, F1-Score, and AUC-ROC under strict cross-validation constraints, our framework ensures that models demonstrate true predictive power on unseen patient data rather than memorizing class prevalence.</p>
       </div>
 
-    </div>
+  </div>
   </details>
 
-</div> <!-- CLOSES PHASE 3 CONTAINER FULLY -->
+ <!-- CLOSES PHASE 3 CONTAINER FULLY -->
 
 <!-- ==================== ALWAYS VISIBLE KEY LITERATURE CONTAINER ==================== -->
 <div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
