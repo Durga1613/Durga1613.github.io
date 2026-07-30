@@ -538,6 +538,7 @@ layout: default
  </div>
   </details>
 <!-- WEEK 10 DROPDOWN (INSIDE PHASE 2) -->
+
   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
       <span>Week 10: Advanced Time-Frequency Parameters, Cross-Channel Dynamics & EHG-TOCO Alignment</span>
@@ -592,11 +593,8 @@ layout: default
 
 
 <!-- ==================== PHASE 3 MAIN CONTAINER ==================== -->
-<div style="background: white; border: 1px solid #e2e8f0; border-radius: 12px; padding: 30px; margin-bottom: 30px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
-  <h2 style="color: #d97706; border-bottom: 2px solid #fef3c7; padding-bottom: 10px; margin-top: 0; display: flex; align-items: center; gap: 10px;">
-    <span>Phase 3: Machine Learning Model Benchmarking & Adaptation</span>
-  </h2>
-  <p style="color: #64748b; margin-bottom: 25px;">This phase focuses on evaluating, adapting, and fine-tuning classical statistical classifiers, ensemble learning frameworks, and neural network architectures for uterine EHG feature sets.</p>
+<h3 style="color: #8b5cf6; margin-top: 40px; margin-bottom: 15px; border-left: 4px solid #ddd6fe; padding-left: 10px;">Phase 3: Machine Learning Model Benchmarking & Adaptation</h3>
+ <p style="color: #64748b; margin-bottom: 25px;">This phase focuses on evaluating, adapting, and fine-tuning classical statistical classifiers, ensemble learning frameworks, and neural network architectures for uterine EHG feature sets.</p>
 
   <!-- WEEK 11 DROPDOWN -->
   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
