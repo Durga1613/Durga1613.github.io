@@ -545,7 +545,7 @@ layout: default
       <span style="color: #8b5cf6; font-size: 0.85em;">Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">June 29, 2026 - July 05, 2026</p>
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">June 06, 2026 - July 12, 2026</p>
       
    <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
       <p style="color: #334155; line-height: 1.6;">This week extended the physiological and signal-processing interpretation of the TPEHGT dataset records by evaluating advanced short-time spectral transformations, cross-channel coherence, and the mechanical-electrical properties of uterine tissue:</p>
@@ -603,7 +603,7 @@ layout: default
       <span style="color: #d97706; font-size: 0.85em;">Click to Expand</span>
     </summary>
     <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
-      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">July 06, 2026 - July 12, 2026</p>
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">July 13, 2026 - July 19, 2026</p>
       
    <div style="margin-bottom: 20px;">
         <span style="background: rgba(217, 119, 6, 0.15); color: #d97706; padding: 4px 12px; border-radius: 20px; font-size: 0.75em; font-weight: bold; letter-spacing: 0.5px; text-transform: uppercase;">Phase 3 Initiated</span>
@@ -674,6 +674,76 @@ layout: default
           </tbody>
         </table>
       </div>
+    </div>
+  </details>
+
+  <!-- WEEK 12 DROPDOWN -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 12: Model Evaluation Metrics & Clinical Performance Diagnostics</span>
+      <span style="color: #d97706; font-size: 0.85em;">Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">July 20, 2026 - July 26, 2026</p>
+      
+  <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week established a comprehensive diagnostic evaluation matrix, moving beyond simple classification accuracy to analyze multi-metric statistical performance parameters required for biomedical models handling imbalanced physiological datasets:</p>
+      
+  <ul style="color: #475569; line-height: 1.7;">
+        <li><strong style="color: #d97706;">Accuracy Analysis & Limitations:</strong> Calculated global accuracy as the ratio of correct predictions to total samples. Documented why accuracy alone is insufficient for medical datasets like TPEHG DB, where a naive model predicting 100% term births can yield high accuracy while completely failing to detect preterm cases.</li>
+        <li><strong style="color: #d97706;">Precision (Positive Predictive Value):</strong> Evaluated precision to measure the proportion of true preterm cases among all positive predictions. High precision minimizes false alarms, preventing unnecessary anxiety and unneeded medical treatments (such as unwarranted corticosteroid administration).</li>
+        <li><strong style="color: #d97706;">Recall / Sensitivity (True Positive Rate):</strong> Analyzed recall to measure the model's ability to identify all actual preterm contractions. In clinical obstetrics, high recall is paramount because missing a preterm birth (False Negative) carries severe neonatal mortality and morbidity risks.</li>
+        <li><strong style="color: #d97706;">F1-Score (Harmonic Mean):</strong> Formulated the F1-Score to balance the trade-off between precision and recall. Provides a robust single-metric representation of overall model utility under imbalanced class distributions.</li>
+        <li><strong style="color: #d97706;">AUC-ROC (Area Under ROC Curve):</strong> Analyzed the Area Under the Receiver Operating Characteristic curve to assess class separability across all possible decision thresholds, ensuring model evaluation remains independent of arbitrary decision boundary placements.</li>
+      </ul>
+
+      <!-- METRICS TAXONOMY TABLE -->
+  <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Evaluation Metric Matrix & Clinical Significance</h4>
+      <div style="overflow-x: auto; margin: 20px 0;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9em;">
+          <thead>
+            <tr style="background-color: #f1f5f9; border-bottom: 2px solid #cbd5e1;">
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Metric</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Mathematical Definition</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Clinical Role & Diagnostic Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Accuracy</td>
+              <td style="padding: 12px; color: #475569;">$$\frac{TP + TN}{TP + TN + FP + FN}$$</td>
+              <td style="padding: 12px; color: #475569;">Measures overall correct predictions; useful baseline but heavily misleading on imbalanced datasets.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Precision</td>
+              <td style="padding: 12px; color: #475569;">$$\frac{TP}{TP + FP}$$</td>
+              <td style="padding: 12px; color: #475569;">Quantifies reliability of positive predictions; reduces false positives and unnecessary clinical interventions.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Recall (Sensitivity)</td>
+              <td style="padding: 12px; color: #475569;">$$\frac{TP}{TP + FN}$$</td>
+              <td style="padding: 12px; color: #475569;">Critical clinical metric; minimizes false negatives to ensure no high-risk preterm cases are missed.</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">F1-Score</td>
+              <td style="padding: 12px; color: #475569;">$$2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}$$</td>
+              <td style="padding: 12px; color: #475569;">Harmonic mean providing a balanced metric for model performance under skewed class distributions.</td>
+            </tr>
+            <tr style="border-bottom: 2px solid #cbd5e1;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">AUC-ROC</td>
+              <td style="padding: 12px; color: #475569;">$$\int_{0}^{1} \text{TPR}(\text{FPR}^{-1}(t)) \, dt$$</td>
+              <td style="padding: 12px; color: #475569;">Evaluates class discrimination capability across variable threshold settings independent of prior probabilities.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+     <!-- METHODOLOGICAL RIGOR CALLOUT -->
+   <div style="background-color: #f0fdf4; border-left: 4px solid #16a34a; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
+        <h5 style="margin: 0 0 8px 0; color: #14532d; font-size: 1.05em;">Ensuring Research Rigor & Model Correctness</h5>
+        <p style="margin: 0; color: #14532d; line-height: 1.5;">In medical signal processing, evaluating models exclusively on accuracy leads to flawed conclusions. By coupling Sensitivity, F1-Score, and AUC-ROC under strict cross-validation constraints, our framework ensures that models demonstrate true predictive power on unseen patient data rather than memorizing class prevalence.</p>
+      </div>
+
     </div>
   </details>
 
