@@ -746,6 +746,88 @@ layout: default
 
   </div>
   </details>
+<!-- WEEK 13 DROPDOWN -->
+  <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
+    <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
+      <span>Week 13: Comparative Model Benchmarking, Feature Importance & Synthesis</span>
+      <span style="color: #d97706; font-size: 0.85em;">Click to Expand</span>
+    </summary>
+    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px dashed #cbd5e1;">
+      <p style="color: #64748b; font-size: 0.9em; margin-bottom: 15px;">July 27, 2026 - August 02, 2026</p>
+      
+   <h4 style="color: #1d4ed8; margin-top: 0;">Tasks & Accomplishments</h4>
+      <p style="color: #334155; line-height: 1.6;">This week synthesized Phase 3 by executing full-scale comparative benchmarking across all eight adapted machine learning classifiers, analyzing feature importance contributions, and selecting the optimal architecture for preterm birth prediction:</p>
+      
+<ul style="color: #475569; line-height: 1.7;">
+        <li><strong style="color: #d97706;">Multi-Model Benchmarking Execution:</strong> Ran standardized 5-fold cross-validation evaluations across the complete 171-dimensional feature matrix $[F_{EHG1}, F_{EHG2}, F_{EHG3}]$ for all eight candidate classifiers (LR, QDA, SVM, DT, RF, GB, CB, and MLP).</li>
+        <li><strong style="color: #d97706;">Feature Importance & Family Ranking:</strong> Extracted Gini importance and SHAP values from ensemble models (RF and CatBoost). Found that Discrete Wavelet Transform (DWT) energy statistics across low-frequency sub-bands ($D_4, D_5$) and MFCC spectro-temporal coefficients were the primary drivers of decision boundary splits.</li>
+        <li><strong style="color: #d97706;">Error Analysis & False Negative Reduction:</strong> Analyzed confusion matrices to evaluate clinical risk. Tree-based boosting ensembles (CatBoost and Gradient Boosting) demonstrated superior recall, significantly minimizing false negative rates compared to linear boundaries (LR/QDA).</li>
+        <li><strong style="color: #d97706;">Final Architecture Selection:</strong> Identified CatBoost and Random Forest as the most robust classifiers, achieving optimal trade-offs between high Sensitivity (Recall) and AUC-ROC while resisting variance overfitting on non-stationary signal segments.</li>
+      </ul>
+  <!-- COMPARATIVE BENCHMARKING TABLE PLACEHOLDER -->
+  <h4 style="color: #1d4ed8; margin-top: 30px; margin-bottom: 12px;">Classifier Performance Benchmarking Summary</h4>
+      <div style="overflow-x: auto; margin: 20px 0;">
+        <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9em;">
+          <thead>
+            <tr style="background-color: #f1f5f9; border-bottom: 2px solid #cbd5e1;">
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Classifier</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Accuracy</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Precision</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">Recall (Sensitivity)</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">F1-Score</th>
+              <th style="padding: 12px; color: #1e3a8a; font-weight: bold;">AUC-ROC</th>
+            </tr>
+          </thead>
+          <tbody>
+  <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Logistic Regression (LR)</td>
+              <td style="padding: 12px; color: #475569;">Baseline</td>
+              <td style="padding: 12px; color: #475569;">Moderate</td>
+              <td style="padding: 12px; color: #475569;">Low</td>
+              <td style="padding: 12px; color: #475569;">Moderate</td>
+              <td style="padding: 12px; color: #475569;">Baseline</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Support Vector Machine (SVM)</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+              <td style="padding: 12px; color: #475569;">Moderate</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #e2e8f0;">
+              <td style="padding: 12px; font-weight: bold; color: #334155;">Random Forest (RF)</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+              <td style="padding: 12px; color: #475569;">High</td>
+            </tr>
+            <tr style="border-bottom: 2px solid #cbd5e1; background-color: #f0fdf4;">
+              <td style="padding: 12px; font-weight: bold; color: #16a34a;">CatBoost (CB) [Top Performer]</td>
+              <td style="padding: 12px; font-weight: bold; color: #16a34a;">Optimal</td>
+              <td style="padding: 12px; font-weight: bold; color: #16a34a;">Optimal</td>
+              <td style="padding: 12px; font-weight: bold; color: #16a34a;">Optimal</td>
+              <td style="padding: 12px; font-weight: bold; color: #16a34a;">Optimal</td>
+              <td style="padding: 12px; font-weight: bold; color: #16a34a;">Optimal</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  <!-- GOOGLE COLAB & RESOURCE LINK PLACEHOLDER -->
+   <h4 style="color: #1d4ed8; margin-top: 25px; margin-bottom: 12px;">Implementation Notebook</h4>
+      <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
+        <a href="PASTE_WEEK_13_GOOGLE_COLAB_LINK_HERE" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; transition: all 0.2s ease; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+          <div>
+            <h5 style="margin: 0; color: #8b5cf6; font-size: 0.95em; line-height: 1.4;">Google Colab: Model Benchmarking & Feature Importance Analysis</h5>
+            <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.8em;">Open Python notebook executing multi-model evaluations, confusion matrices, and ROC curves</p>
+          </div>
+        </a>
+      </div>
+
+   </div>
+  </details>
+  
 
  <!-- CLOSES PHASE 3 CONTAINER FULLY -->
 
