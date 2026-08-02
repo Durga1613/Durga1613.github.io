@@ -784,14 +784,7 @@ layout: default
   </div>
 </details>
 
-     <!-- METHODOLOGICAL RIGOR CALLOUT -->
-   <div style="background-color: #f0fdf4; border-left: 4px solid #16a34a; padding: 15px; border-radius: 0 8px 8px 0; margin-top: 25px;">
-        <h5 style="margin: 0 0 8px 0; color: #14532d; font-size: 1.05em;">Ensuring Research Rigor & Model Correctness</h5>
-        <p style="margin: 0; color: #14532d; line-height: 1.5;">In medical signal processing, evaluating models exclusively on accuracy leads to flawed conclusions. By coupling Sensitivity, F1-Score, and AUC-ROC under strict cross-validation constraints, our framework ensures that models demonstrate true predictive power on unseen patient data rather than memorizing class prevalence.</p>
-      </div>
-
-  </div>
-  </details>
+  
 <!-- WEEK 13 DROPDOWN -->
   <details style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 12px; padding: 15px; transition: all 0.3s;">
     <summary style="font-weight: bold; color: #1e3a8a; cursor: pointer; outline: none; font-size: 1.1em; display: flex; justify-content: space-between; align-items: center;">
@@ -863,7 +856,7 @@ layout: default
   <!-- GOOGLE COLAB & RESOURCE LINK PLACEHOLDER -->
    <h4 style="color: #1d4ed8; margin-top: 25px; margin-bottom: 12px;">Implementation Notebook</h4>
       <div style="display: flex; flex-direction: column; gap: 12px; margin-top: 10px;">
-        <a href="" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; transition: all 0.2s ease; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
+        <a href="https://colab.research.google.com/drive/1sxKKF9BXLn3bHp2mCrdy8BxRU2Bcq4Jr?usp=sharing" target="_blank" style="text-decoration: none; border: 1px solid #e2e8f0; border-radius: 8px; padding: 15px; background: white; transition: all 0.2s ease; display: flex; align-items: center; box-shadow: 0 2px 4px rgba(0,0,0,0.02);">
           <div>
             <h5 style="margin: 0; color: #8b5cf6; font-size: 0.95em; line-height: 1.4;">Google Colab: Model Benchmarking & Feature Importance Analysis</h5>
             <p style="margin: 4px 0 0 0; color: #64748b; font-size: 0.8em;">Open Python notebook executing multi-model evaluations, confusion matrices, and ROC curves</p>
